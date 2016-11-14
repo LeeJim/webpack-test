@@ -1,0 +1,2211 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'antd' ]
+2 info using npm@3.10.8
+3 info using node@v7.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData antd
+8 silly fetchNamedPackageData antd
+9 silly mapToRegistry name antd
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npm.taobao.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'antd',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'antd',
+12 silly mapToRegistry   name: 'antd',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npm.taobao.org/antd
+14 verbose request uri https://registry.npm.taobao.org/antd
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 09:56:16
+17 verbose request id 37aea57f0f72b486
+18 verbose etag "e161b-cU3pK0s/QO/cSa33ccQ4sA"
+19 http request GET https://registry.npm.taobao.org/antd
+20 http 304 https://registry.npm.taobao.org/antd
+21 verbose headers { date: 'Mon, 14 Nov 2016 01:54:40 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-current-requests': '1',
+21 verbose headers   etag: '"e161b-cU3pK0s/QO/cSa33ccQ4sA"',
+21 verbose headers   'x-readtime': '147' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Mon, 14 Nov 2016 01:54:40 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-current-requests': '1',
+22 silly get     etag: '"e161b-cU3pK0s/QO/cSa33ccQ4sA"',
+22 silly get     'x-readtime': '147' } ]
+23 verbose etag https://registry.npm.taobao.org/antd from cache
+24 verbose get saving antd to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\antd\.cache.json
+25 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule antd@2.4.2 checking installable status
+39 silly cache add args [ 'antd', null ]
+40 verbose cache add spec antd
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'antd',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'antd',
+41 silly cache add   name: 'antd',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed antd@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for antd
+44 info addNameTag [ 'antd', 'latest' ]
+45 silly mapToRegistry name antd
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npm.taobao.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'antd',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'antd',
+48 silly mapToRegistry   name: 'antd',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npm.taobao.org/antd
+50 verbose addNameTag registry:https://registry.npm.taobao.org/antd not in flight; fetching
+51 verbose get https://registry.npm.taobao.org/antd not expired, no request
+52 silly addNameTag next cb for antd with tag latest
+53 silly addNamed antd@2.4.2
+54 verbose addNamed "2.4.2" is a plain semver version for antd
+55 silly cache afterAdd antd@2.4.2
+56 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\antd\2.4.2\package\package.json not in flight; writing
+57 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+58 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\antd\2.4.2\package\package.json written
+59 silly fetchNamedPackageData array-tree-filter
+60 silly mapToRegistry name array-tree-filter
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npm.taobao.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'array-tree-filter',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   escapedName: 'array-tree-filter',
+63 silly mapToRegistry   name: 'array-tree-filter',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npm.taobao.org/array-tree-filter
+65 silly fetchNamedPackageData babel-runtime
+66 silly mapToRegistry name babel-runtime
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npm.taobao.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'babel-runtime',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   escapedName: 'babel-runtime',
+69 silly mapToRegistry   name: 'babel-runtime',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri https://registry.npm.taobao.org/babel-runtime
+71 silly fetchNamedPackageData classnames
+72 silly mapToRegistry name classnames
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npm.taobao.org/
+75 silly mapToRegistry data Result {
+75 silly mapToRegistry   raw: 'classnames',
+75 silly mapToRegistry   scope: null,
+75 silly mapToRegistry   escapedName: 'classnames',
+75 silly mapToRegistry   name: 'classnames',
+75 silly mapToRegistry   rawSpec: '',
+75 silly mapToRegistry   spec: 'latest',
+75 silly mapToRegistry   type: 'tag' }
+76 silly mapToRegistry uri https://registry.npm.taobao.org/classnames
+77 silly fetchNamedPackageData css-animation
+78 silly mapToRegistry name css-animation
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npm.taobao.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: 'css-animation',
+81 silly mapToRegistry   scope: null,
+81 silly mapToRegistry   escapedName: 'css-animation',
+81 silly mapToRegistry   name: 'css-animation',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri https://registry.npm.taobao.org/css-animation
+83 silly fetchNamedPackageData gregorian-calendar
+84 silly mapToRegistry name gregorian-calendar
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npm.taobao.org/
+87 silly mapToRegistry data Result {
+87 silly mapToRegistry   raw: 'gregorian-calendar',
+87 silly mapToRegistry   scope: null,
+87 silly mapToRegistry   escapedName: 'gregorian-calendar',
+87 silly mapToRegistry   name: 'gregorian-calendar',
+87 silly mapToRegistry   rawSpec: '',
+87 silly mapToRegistry   spec: 'latest',
+87 silly mapToRegistry   type: 'tag' }
+88 silly mapToRegistry uri https://registry.npm.taobao.org/gregorian-calendar
+89 silly fetchNamedPackageData gregorian-calendar-format
+90 silly mapToRegistry name gregorian-calendar-format
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npm.taobao.org/
+93 silly mapToRegistry data Result {
+93 silly mapToRegistry   raw: 'gregorian-calendar-format',
+93 silly mapToRegistry   scope: null,
+93 silly mapToRegistry   escapedName: 'gregorian-calendar-format',
+93 silly mapToRegistry   name: 'gregorian-calendar-format',
+93 silly mapToRegistry   rawSpec: '',
+93 silly mapToRegistry   spec: 'latest',
+93 silly mapToRegistry   type: 'tag' }
+94 silly mapToRegistry uri https://registry.npm.taobao.org/gregorian-calendar-format
+95 silly fetchNamedPackageData moment
+96 silly mapToRegistry name moment
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npm.taobao.org/
+99 silly mapToRegistry data Result {
+99 silly mapToRegistry   raw: 'moment',
+99 silly mapToRegistry   scope: null,
+99 silly mapToRegistry   escapedName: 'moment',
+99 silly mapToRegistry   name: 'moment',
+99 silly mapToRegistry   rawSpec: '',
+99 silly mapToRegistry   spec: 'latest',
+99 silly mapToRegistry   type: 'tag' }
+100 silly mapToRegistry uri https://registry.npm.taobao.org/moment
+101 silly fetchNamedPackageData object-assign
+102 silly mapToRegistry name object-assign
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npm.taobao.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'object-assign',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   escapedName: 'object-assign',
+105 silly mapToRegistry   name: 'object-assign',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri https://registry.npm.taobao.org/object-assign
+107 silly fetchNamedPackageData omit.js
+108 silly mapToRegistry name omit.js
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npm.taobao.org/
+111 silly mapToRegistry data Result {
+111 silly mapToRegistry   raw: 'omit.js',
+111 silly mapToRegistry   scope: null,
+111 silly mapToRegistry   escapedName: 'omit.js',
+111 silly mapToRegistry   name: 'omit.js',
+111 silly mapToRegistry   rawSpec: '',
+111 silly mapToRegistry   spec: 'latest',
+111 silly mapToRegistry   type: 'tag' }
+112 silly mapToRegistry uri https://registry.npm.taobao.org/omit.js
+113 silly fetchNamedPackageData rc-animate
+114 silly mapToRegistry name rc-animate
+115 silly mapToRegistry using default registry
+116 silly mapToRegistry registry https://registry.npm.taobao.org/
+117 silly mapToRegistry data Result {
+117 silly mapToRegistry   raw: 'rc-animate',
+117 silly mapToRegistry   scope: null,
+117 silly mapToRegistry   escapedName: 'rc-animate',
+117 silly mapToRegistry   name: 'rc-animate',
+117 silly mapToRegistry   rawSpec: '',
+117 silly mapToRegistry   spec: 'latest',
+117 silly mapToRegistry   type: 'tag' }
+118 silly mapToRegistry uri https://registry.npm.taobao.org/rc-animate
+119 silly fetchNamedPackageData rc-calendar
+120 silly mapToRegistry name rc-calendar
+121 silly mapToRegistry using default registry
+122 silly mapToRegistry registry https://registry.npm.taobao.org/
+123 silly mapToRegistry data Result {
+123 silly mapToRegistry   raw: 'rc-calendar',
+123 silly mapToRegistry   scope: null,
+123 silly mapToRegistry   escapedName: 'rc-calendar',
+123 silly mapToRegistry   name: 'rc-calendar',
+123 silly mapToRegistry   rawSpec: '',
+123 silly mapToRegistry   spec: 'latest',
+123 silly mapToRegistry   type: 'tag' }
+124 silly mapToRegistry uri https://registry.npm.taobao.org/rc-calendar
+125 silly fetchNamedPackageData rc-cascader
+126 silly mapToRegistry name rc-cascader
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npm.taobao.org/
+129 silly mapToRegistry data Result {
+129 silly mapToRegistry   raw: 'rc-cascader',
+129 silly mapToRegistry   scope: null,
+129 silly mapToRegistry   escapedName: 'rc-cascader',
+129 silly mapToRegistry   name: 'rc-cascader',
+129 silly mapToRegistry   rawSpec: '',
+129 silly mapToRegistry   spec: 'latest',
+129 silly mapToRegistry   type: 'tag' }
+130 silly mapToRegistry uri https://registry.npm.taobao.org/rc-cascader
+131 silly fetchNamedPackageData rc-checkbox
+132 silly mapToRegistry name rc-checkbox
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npm.taobao.org/
+135 silly mapToRegistry data Result {
+135 silly mapToRegistry   raw: 'rc-checkbox',
+135 silly mapToRegistry   scope: null,
+135 silly mapToRegistry   escapedName: 'rc-checkbox',
+135 silly mapToRegistry   name: 'rc-checkbox',
+135 silly mapToRegistry   rawSpec: '',
+135 silly mapToRegistry   spec: 'latest',
+135 silly mapToRegistry   type: 'tag' }
+136 silly mapToRegistry uri https://registry.npm.taobao.org/rc-checkbox
+137 silly fetchNamedPackageData rc-collapse
+138 silly mapToRegistry name rc-collapse
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npm.taobao.org/
+141 silly mapToRegistry data Result {
+141 silly mapToRegistry   raw: 'rc-collapse',
+141 silly mapToRegistry   scope: null,
+141 silly mapToRegistry   escapedName: 'rc-collapse',
+141 silly mapToRegistry   name: 'rc-collapse',
+141 silly mapToRegistry   rawSpec: '',
+141 silly mapToRegistry   spec: 'latest',
+141 silly mapToRegistry   type: 'tag' }
+142 silly mapToRegistry uri https://registry.npm.taobao.org/rc-collapse
+143 silly fetchNamedPackageData rc-dialog
+144 silly mapToRegistry name rc-dialog
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npm.taobao.org/
+147 silly mapToRegistry data Result {
+147 silly mapToRegistry   raw: 'rc-dialog',
+147 silly mapToRegistry   scope: null,
+147 silly mapToRegistry   escapedName: 'rc-dialog',
+147 silly mapToRegistry   name: 'rc-dialog',
+147 silly mapToRegistry   rawSpec: '',
+147 silly mapToRegistry   spec: 'latest',
+147 silly mapToRegistry   type: 'tag' }
+148 silly mapToRegistry uri https://registry.npm.taobao.org/rc-dialog
+149 silly fetchNamedPackageData rc-dropdown
+150 silly mapToRegistry name rc-dropdown
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npm.taobao.org/
+153 silly mapToRegistry data Result {
+153 silly mapToRegistry   raw: 'rc-dropdown',
+153 silly mapToRegistry   scope: null,
+153 silly mapToRegistry   escapedName: 'rc-dropdown',
+153 silly mapToRegistry   name: 'rc-dropdown',
+153 silly mapToRegistry   rawSpec: '',
+153 silly mapToRegistry   spec: 'latest',
+153 silly mapToRegistry   type: 'tag' }
+154 silly mapToRegistry uri https://registry.npm.taobao.org/rc-dropdown
+155 silly fetchNamedPackageData rc-editor-mention
+156 silly mapToRegistry name rc-editor-mention
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry https://registry.npm.taobao.org/
+159 silly mapToRegistry data Result {
+159 silly mapToRegistry   raw: 'rc-editor-mention',
+159 silly mapToRegistry   scope: null,
+159 silly mapToRegistry   escapedName: 'rc-editor-mention',
+159 silly mapToRegistry   name: 'rc-editor-mention',
+159 silly mapToRegistry   rawSpec: '',
+159 silly mapToRegistry   spec: 'latest',
+159 silly mapToRegistry   type: 'tag' }
+160 silly mapToRegistry uri https://registry.npm.taobao.org/rc-editor-mention
+161 silly fetchNamedPackageData rc-form
+162 silly mapToRegistry name rc-form
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npm.taobao.org/
+165 silly mapToRegistry data Result {
+165 silly mapToRegistry   raw: 'rc-form',
+165 silly mapToRegistry   scope: null,
+165 silly mapToRegistry   escapedName: 'rc-form',
+165 silly mapToRegistry   name: 'rc-form',
+165 silly mapToRegistry   rawSpec: '',
+165 silly mapToRegistry   spec: 'latest',
+165 silly mapToRegistry   type: 'tag' }
+166 silly mapToRegistry uri https://registry.npm.taobao.org/rc-form
+167 silly fetchNamedPackageData rc-input-number
+168 silly mapToRegistry name rc-input-number
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://registry.npm.taobao.org/
+171 silly mapToRegistry data Result {
+171 silly mapToRegistry   raw: 'rc-input-number',
+171 silly mapToRegistry   scope: null,
+171 silly mapToRegistry   escapedName: 'rc-input-number',
+171 silly mapToRegistry   name: 'rc-input-number',
+171 silly mapToRegistry   rawSpec: '',
+171 silly mapToRegistry   spec: 'latest',
+171 silly mapToRegistry   type: 'tag' }
+172 silly mapToRegistry uri https://registry.npm.taobao.org/rc-input-number
+173 silly fetchNamedPackageData rc-menu
+174 silly mapToRegistry name rc-menu
+175 silly mapToRegistry using default registry
+176 silly mapToRegistry registry https://registry.npm.taobao.org/
+177 silly mapToRegistry data Result {
+177 silly mapToRegistry   raw: 'rc-menu',
+177 silly mapToRegistry   scope: null,
+177 silly mapToRegistry   escapedName: 'rc-menu',
+177 silly mapToRegistry   name: 'rc-menu',
+177 silly mapToRegistry   rawSpec: '',
+177 silly mapToRegistry   spec: 'latest',
+177 silly mapToRegistry   type: 'tag' }
+178 silly mapToRegistry uri https://registry.npm.taobao.org/rc-menu
+179 silly fetchNamedPackageData rc-notification
+180 silly mapToRegistry name rc-notification
+181 silly mapToRegistry using default registry
+182 silly mapToRegistry registry https://registry.npm.taobao.org/
+183 silly mapToRegistry data Result {
+183 silly mapToRegistry   raw: 'rc-notification',
+183 silly mapToRegistry   scope: null,
+183 silly mapToRegistry   escapedName: 'rc-notification',
+183 silly mapToRegistry   name: 'rc-notification',
+183 silly mapToRegistry   rawSpec: '',
+183 silly mapToRegistry   spec: 'latest',
+183 silly mapToRegistry   type: 'tag' }
+184 silly mapToRegistry uri https://registry.npm.taobao.org/rc-notification
+185 silly fetchNamedPackageData rc-pagination
+186 silly mapToRegistry name rc-pagination
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry https://registry.npm.taobao.org/
+189 silly mapToRegistry data Result {
+189 silly mapToRegistry   raw: 'rc-pagination',
+189 silly mapToRegistry   scope: null,
+189 silly mapToRegistry   escapedName: 'rc-pagination',
+189 silly mapToRegistry   name: 'rc-pagination',
+189 silly mapToRegistry   rawSpec: '',
+189 silly mapToRegistry   spec: 'latest',
+189 silly mapToRegistry   type: 'tag' }
+190 silly mapToRegistry uri https://registry.npm.taobao.org/rc-pagination
+191 silly fetchNamedPackageData rc-progress
+192 silly mapToRegistry name rc-progress
+193 silly mapToRegistry using default registry
+194 silly mapToRegistry registry https://registry.npm.taobao.org/
+195 silly mapToRegistry data Result {
+195 silly mapToRegistry   raw: 'rc-progress',
+195 silly mapToRegistry   scope: null,
+195 silly mapToRegistry   escapedName: 'rc-progress',
+195 silly mapToRegistry   name: 'rc-progress',
+195 silly mapToRegistry   rawSpec: '',
+195 silly mapToRegistry   spec: 'latest',
+195 silly mapToRegistry   type: 'tag' }
+196 silly mapToRegistry uri https://registry.npm.taobao.org/rc-progress
+197 silly fetchNamedPackageData rc-radio
+198 silly mapToRegistry name rc-radio
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npm.taobao.org/
+201 silly mapToRegistry data Result {
+201 silly mapToRegistry   raw: 'rc-radio',
+201 silly mapToRegistry   scope: null,
+201 silly mapToRegistry   escapedName: 'rc-radio',
+201 silly mapToRegistry   name: 'rc-radio',
+201 silly mapToRegistry   rawSpec: '',
+201 silly mapToRegistry   spec: 'latest',
+201 silly mapToRegistry   type: 'tag' }
+202 silly mapToRegistry uri https://registry.npm.taobao.org/rc-radio
+203 silly fetchNamedPackageData rc-rate
+204 silly mapToRegistry name rc-rate
+205 silly mapToRegistry using default registry
+206 silly mapToRegistry registry https://registry.npm.taobao.org/
+207 silly mapToRegistry data Result {
+207 silly mapToRegistry   raw: 'rc-rate',
+207 silly mapToRegistry   scope: null,
+207 silly mapToRegistry   escapedName: 'rc-rate',
+207 silly mapToRegistry   name: 'rc-rate',
+207 silly mapToRegistry   rawSpec: '',
+207 silly mapToRegistry   spec: 'latest',
+207 silly mapToRegistry   type: 'tag' }
+208 silly mapToRegistry uri https://registry.npm.taobao.org/rc-rate
+209 silly fetchNamedPackageData rc-select
+210 silly mapToRegistry name rc-select
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npm.taobao.org/
+213 silly mapToRegistry data Result {
+213 silly mapToRegistry   raw: 'rc-select',
+213 silly mapToRegistry   scope: null,
+213 silly mapToRegistry   escapedName: 'rc-select',
+213 silly mapToRegistry   name: 'rc-select',
+213 silly mapToRegistry   rawSpec: '',
+213 silly mapToRegistry   spec: 'latest',
+213 silly mapToRegistry   type: 'tag' }
+214 silly mapToRegistry uri https://registry.npm.taobao.org/rc-select
+215 silly fetchNamedPackageData rc-slider
+216 silly mapToRegistry name rc-slider
+217 silly mapToRegistry using default registry
+218 silly mapToRegistry registry https://registry.npm.taobao.org/
+219 silly mapToRegistry data Result {
+219 silly mapToRegistry   raw: 'rc-slider',
+219 silly mapToRegistry   scope: null,
+219 silly mapToRegistry   escapedName: 'rc-slider',
+219 silly mapToRegistry   name: 'rc-slider',
+219 silly mapToRegistry   rawSpec: '',
+219 silly mapToRegistry   spec: 'latest',
+219 silly mapToRegistry   type: 'tag' }
+220 silly mapToRegistry uri https://registry.npm.taobao.org/rc-slider
+221 silly fetchNamedPackageData rc-steps
+222 silly mapToRegistry name rc-steps
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npm.taobao.org/
+225 silly mapToRegistry data Result {
+225 silly mapToRegistry   raw: 'rc-steps',
+225 silly mapToRegistry   scope: null,
+225 silly mapToRegistry   escapedName: 'rc-steps',
+225 silly mapToRegistry   name: 'rc-steps',
+225 silly mapToRegistry   rawSpec: '',
+225 silly mapToRegistry   spec: 'latest',
+225 silly mapToRegistry   type: 'tag' }
+226 silly mapToRegistry uri https://registry.npm.taobao.org/rc-steps
+227 silly fetchNamedPackageData rc-switch
+228 silly mapToRegistry name rc-switch
+229 silly mapToRegistry using default registry
+230 silly mapToRegistry registry https://registry.npm.taobao.org/
+231 silly mapToRegistry data Result {
+231 silly mapToRegistry   raw: 'rc-switch',
+231 silly mapToRegistry   scope: null,
+231 silly mapToRegistry   escapedName: 'rc-switch',
+231 silly mapToRegistry   name: 'rc-switch',
+231 silly mapToRegistry   rawSpec: '',
+231 silly mapToRegistry   spec: 'latest',
+231 silly mapToRegistry   type: 'tag' }
+232 silly mapToRegistry uri https://registry.npm.taobao.org/rc-switch
+233 silly fetchNamedPackageData rc-table
+234 silly mapToRegistry name rc-table
+235 silly mapToRegistry using default registry
+236 silly mapToRegistry registry https://registry.npm.taobao.org/
+237 silly mapToRegistry data Result {
+237 silly mapToRegistry   raw: 'rc-table',
+237 silly mapToRegistry   scope: null,
+237 silly mapToRegistry   escapedName: 'rc-table',
+237 silly mapToRegistry   name: 'rc-table',
+237 silly mapToRegistry   rawSpec: '',
+237 silly mapToRegistry   spec: 'latest',
+237 silly mapToRegistry   type: 'tag' }
+238 silly mapToRegistry uri https://registry.npm.taobao.org/rc-table
+239 silly fetchNamedPackageData rc-tabs
+240 silly mapToRegistry name rc-tabs
+241 silly mapToRegistry using default registry
+242 silly mapToRegistry registry https://registry.npm.taobao.org/
+243 silly mapToRegistry data Result {
+243 silly mapToRegistry   raw: 'rc-tabs',
+243 silly mapToRegistry   scope: null,
+243 silly mapToRegistry   escapedName: 'rc-tabs',
+243 silly mapToRegistry   name: 'rc-tabs',
+243 silly mapToRegistry   rawSpec: '',
+243 silly mapToRegistry   spec: 'latest',
+243 silly mapToRegistry   type: 'tag' }
+244 silly mapToRegistry uri https://registry.npm.taobao.org/rc-tabs
+245 silly fetchNamedPackageData rc-time-picker
+246 silly mapToRegistry name rc-time-picker
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npm.taobao.org/
+249 silly mapToRegistry data Result {
+249 silly mapToRegistry   raw: 'rc-time-picker',
+249 silly mapToRegistry   scope: null,
+249 silly mapToRegistry   escapedName: 'rc-time-picker',
+249 silly mapToRegistry   name: 'rc-time-picker',
+249 silly mapToRegistry   rawSpec: '',
+249 silly mapToRegistry   spec: 'latest',
+249 silly mapToRegistry   type: 'tag' }
+250 silly mapToRegistry uri https://registry.npm.taobao.org/rc-time-picker
+251 silly fetchNamedPackageData rc-tooltip
+252 silly mapToRegistry name rc-tooltip
+253 silly mapToRegistry using default registry
+254 silly mapToRegistry registry https://registry.npm.taobao.org/
+255 silly mapToRegistry data Result {
+255 silly mapToRegistry   raw: 'rc-tooltip',
+255 silly mapToRegistry   scope: null,
+255 silly mapToRegistry   escapedName: 'rc-tooltip',
+255 silly mapToRegistry   name: 'rc-tooltip',
+255 silly mapToRegistry   rawSpec: '',
+255 silly mapToRegistry   spec: 'latest',
+255 silly mapToRegistry   type: 'tag' }
+256 silly mapToRegistry uri https://registry.npm.taobao.org/rc-tooltip
+257 silly fetchNamedPackageData rc-tree
+258 silly mapToRegistry name rc-tree
+259 silly mapToRegistry using default registry
+260 silly mapToRegistry registry https://registry.npm.taobao.org/
+261 silly mapToRegistry data Result {
+261 silly mapToRegistry   raw: 'rc-tree',
+261 silly mapToRegistry   scope: null,
+261 silly mapToRegistry   escapedName: 'rc-tree',
+261 silly mapToRegistry   name: 'rc-tree',
+261 silly mapToRegistry   rawSpec: '',
+261 silly mapToRegistry   spec: 'latest',
+261 silly mapToRegistry   type: 'tag' }
+262 silly mapToRegistry uri https://registry.npm.taobao.org/rc-tree
+263 silly fetchNamedPackageData rc-tree-select
+264 silly mapToRegistry name rc-tree-select
+265 silly mapToRegistry using default registry
+266 silly mapToRegistry registry https://registry.npm.taobao.org/
+267 silly mapToRegistry data Result {
+267 silly mapToRegistry   raw: 'rc-tree-select',
+267 silly mapToRegistry   scope: null,
+267 silly mapToRegistry   escapedName: 'rc-tree-select',
+267 silly mapToRegistry   name: 'rc-tree-select',
+267 silly mapToRegistry   rawSpec: '',
+267 silly mapToRegistry   spec: 'latest',
+267 silly mapToRegistry   type: 'tag' }
+268 silly mapToRegistry uri https://registry.npm.taobao.org/rc-tree-select
+269 silly fetchNamedPackageData rc-upload
+270 silly mapToRegistry name rc-upload
+271 silly mapToRegistry using default registry
+272 silly mapToRegistry registry https://registry.npm.taobao.org/
+273 silly mapToRegistry data Result {
+273 silly mapToRegistry   raw: 'rc-upload',
+273 silly mapToRegistry   scope: null,
+273 silly mapToRegistry   escapedName: 'rc-upload',
+273 silly mapToRegistry   name: 'rc-upload',
+273 silly mapToRegistry   rawSpec: '',
+273 silly mapToRegistry   spec: 'latest',
+273 silly mapToRegistry   type: 'tag' }
+274 silly mapToRegistry uri https://registry.npm.taobao.org/rc-upload
+275 silly fetchNamedPackageData rc-util
+276 silly mapToRegistry name rc-util
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npm.taobao.org/
+279 silly mapToRegistry data Result {
+279 silly mapToRegistry   raw: 'rc-util',
+279 silly mapToRegistry   scope: null,
+279 silly mapToRegistry   escapedName: 'rc-util',
+279 silly mapToRegistry   name: 'rc-util',
+279 silly mapToRegistry   rawSpec: '',
+279 silly mapToRegistry   spec: 'latest',
+279 silly mapToRegistry   type: 'tag' }
+280 silly mapToRegistry uri https://registry.npm.taobao.org/rc-util
+281 silly fetchNamedPackageData react-lazy-load
+282 silly mapToRegistry name react-lazy-load
+283 silly mapToRegistry using default registry
+284 silly mapToRegistry registry https://registry.npm.taobao.org/
+285 silly mapToRegistry data Result {
+285 silly mapToRegistry   raw: 'react-lazy-load',
+285 silly mapToRegistry   scope: null,
+285 silly mapToRegistry   escapedName: 'react-lazy-load',
+285 silly mapToRegistry   name: 'react-lazy-load',
+285 silly mapToRegistry   rawSpec: '',
+285 silly mapToRegistry   spec: 'latest',
+285 silly mapToRegistry   type: 'tag' }
+286 silly mapToRegistry uri https://registry.npm.taobao.org/react-lazy-load
+287 silly fetchNamedPackageData react-slick
+288 silly mapToRegistry name react-slick
+289 silly mapToRegistry using default registry
+290 silly mapToRegistry registry https://registry.npm.taobao.org/
+291 silly mapToRegistry data Result {
+291 silly mapToRegistry   raw: 'react-slick',
+291 silly mapToRegistry   scope: null,
+291 silly mapToRegistry   escapedName: 'react-slick',
+291 silly mapToRegistry   name: 'react-slick',
+291 silly mapToRegistry   rawSpec: '',
+291 silly mapToRegistry   spec: 'latest',
+291 silly mapToRegistry   type: 'tag' }
+292 silly mapToRegistry uri https://registry.npm.taobao.org/react-slick
+293 silly fetchNamedPackageData shallowequal
+294 silly mapToRegistry name shallowequal
+295 silly mapToRegistry using default registry
+296 silly mapToRegistry registry https://registry.npm.taobao.org/
+297 silly mapToRegistry data Result {
+297 silly mapToRegistry   raw: 'shallowequal',
+297 silly mapToRegistry   scope: null,
+297 silly mapToRegistry   escapedName: 'shallowequal',
+297 silly mapToRegistry   name: 'shallowequal',
+297 silly mapToRegistry   rawSpec: '',
+297 silly mapToRegistry   spec: 'latest',
+297 silly mapToRegistry   type: 'tag' }
+298 silly mapToRegistry uri https://registry.npm.taobao.org/shallowequal
+299 silly fetchNamedPackageData warning
+300 silly mapToRegistry name warning
+301 silly mapToRegistry using default registry
+302 silly mapToRegistry registry https://registry.npm.taobao.org/
+303 silly mapToRegistry data Result {
+303 silly mapToRegistry   raw: 'warning',
+303 silly mapToRegistry   scope: null,
+303 silly mapToRegistry   escapedName: 'warning',
+303 silly mapToRegistry   name: 'warning',
+303 silly mapToRegistry   rawSpec: '',
+303 silly mapToRegistry   spec: 'latest',
+303 silly mapToRegistry   type: 'tag' }
+304 silly mapToRegistry uri https://registry.npm.taobao.org/warning
+305 verbose request uri https://registry.npm.taobao.org/classnames
+306 verbose request no auth needed
+307 info attempt registry request try #1 at 09:56:16
+308 http request GET https://registry.npm.taobao.org/classnames
+309 verbose request uri https://registry.npm.taobao.org/css-animation
+310 verbose request no auth needed
+311 info attempt registry request try #1 at 09:56:16
+312 http request GET https://registry.npm.taobao.org/css-animation
+313 verbose request uri https://registry.npm.taobao.org/gregorian-calendar
+314 verbose request no auth needed
+315 info attempt registry request try #1 at 09:56:16
+316 http request GET https://registry.npm.taobao.org/gregorian-calendar
+317 verbose request uri https://registry.npm.taobao.org/gregorian-calendar-format
+318 verbose request no auth needed
+319 info attempt registry request try #1 at 09:56:16
+320 http request GET https://registry.npm.taobao.org/gregorian-calendar-format
+321 verbose request uri https://registry.npm.taobao.org/omit.js
+322 verbose request no auth needed
+323 info attempt registry request try #1 at 09:56:16
+324 http request GET https://registry.npm.taobao.org/omit.js
+325 verbose request uri https://registry.npm.taobao.org/rc-animate
+326 verbose request no auth needed
+327 info attempt registry request try #1 at 09:56:16
+328 http request GET https://registry.npm.taobao.org/rc-animate
+329 verbose request uri https://registry.npm.taobao.org/rc-calendar
+330 verbose request no auth needed
+331 info attempt registry request try #1 at 09:56:16
+332 http request GET https://registry.npm.taobao.org/rc-calendar
+333 verbose request uri https://registry.npm.taobao.org/rc-cascader
+334 verbose request no auth needed
+335 info attempt registry request try #1 at 09:56:16
+336 http request GET https://registry.npm.taobao.org/rc-cascader
+337 verbose request uri https://registry.npm.taobao.org/rc-checkbox
+338 verbose request no auth needed
+339 info attempt registry request try #1 at 09:56:16
+340 http request GET https://registry.npm.taobao.org/rc-checkbox
+341 verbose request uri https://registry.npm.taobao.org/rc-collapse
+342 verbose request no auth needed
+343 info attempt registry request try #1 at 09:56:16
+344 http request GET https://registry.npm.taobao.org/rc-collapse
+345 verbose request uri https://registry.npm.taobao.org/rc-dialog
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 09:56:16
+348 http request GET https://registry.npm.taobao.org/rc-dialog
+349 verbose request uri https://registry.npm.taobao.org/rc-dropdown
+350 verbose request no auth needed
+351 info attempt registry request try #1 at 09:56:16
+352 http request GET https://registry.npm.taobao.org/rc-dropdown
+353 verbose request uri https://registry.npm.taobao.org/rc-editor-mention
+354 verbose request no auth needed
+355 info attempt registry request try #1 at 09:56:16
+356 http request GET https://registry.npm.taobao.org/rc-editor-mention
+357 verbose request uri https://registry.npm.taobao.org/rc-form
+358 verbose request no auth needed
+359 info attempt registry request try #1 at 09:56:16
+360 http request GET https://registry.npm.taobao.org/rc-form
+361 verbose request uri https://registry.npm.taobao.org/rc-input-number
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 09:56:16
+364 http request GET https://registry.npm.taobao.org/rc-input-number
+365 verbose request uri https://registry.npm.taobao.org/rc-menu
+366 verbose request no auth needed
+367 info attempt registry request try #1 at 09:56:16
+368 http request GET https://registry.npm.taobao.org/rc-menu
+369 verbose request uri https://registry.npm.taobao.org/rc-notification
+370 verbose request no auth needed
+371 info attempt registry request try #1 at 09:56:16
+372 http request GET https://registry.npm.taobao.org/rc-notification
+373 verbose request uri https://registry.npm.taobao.org/rc-pagination
+374 verbose request no auth needed
+375 info attempt registry request try #1 at 09:56:16
+376 http request GET https://registry.npm.taobao.org/rc-pagination
+377 verbose request uri https://registry.npm.taobao.org/rc-progress
+378 verbose request no auth needed
+379 info attempt registry request try #1 at 09:56:16
+380 http request GET https://registry.npm.taobao.org/rc-progress
+381 verbose request uri https://registry.npm.taobao.org/rc-radio
+382 verbose request no auth needed
+383 info attempt registry request try #1 at 09:56:16
+384 http request GET https://registry.npm.taobao.org/rc-radio
+385 verbose request uri https://registry.npm.taobao.org/rc-rate
+386 verbose request no auth needed
+387 info attempt registry request try #1 at 09:56:16
+388 http request GET https://registry.npm.taobao.org/rc-rate
+389 verbose request uri https://registry.npm.taobao.org/rc-select
+390 verbose request no auth needed
+391 info attempt registry request try #1 at 09:56:16
+392 http request GET https://registry.npm.taobao.org/rc-select
+393 verbose request uri https://registry.npm.taobao.org/rc-slider
+394 verbose request no auth needed
+395 info attempt registry request try #1 at 09:56:16
+396 http request GET https://registry.npm.taobao.org/rc-slider
+397 verbose request uri https://registry.npm.taobao.org/rc-steps
+398 verbose request no auth needed
+399 info attempt registry request try #1 at 09:56:16
+400 http request GET https://registry.npm.taobao.org/rc-steps
+401 verbose request uri https://registry.npm.taobao.org/rc-switch
+402 verbose request no auth needed
+403 info attempt registry request try #1 at 09:56:16
+404 http request GET https://registry.npm.taobao.org/rc-switch
+405 verbose request uri https://registry.npm.taobao.org/rc-table
+406 verbose request no auth needed
+407 info attempt registry request try #1 at 09:56:16
+408 http request GET https://registry.npm.taobao.org/rc-table
+409 verbose request uri https://registry.npm.taobao.org/rc-tabs
+410 verbose request no auth needed
+411 info attempt registry request try #1 at 09:56:16
+412 http request GET https://registry.npm.taobao.org/rc-tabs
+413 verbose request uri https://registry.npm.taobao.org/rc-time-picker
+414 verbose request no auth needed
+415 info attempt registry request try #1 at 09:56:16
+416 http request GET https://registry.npm.taobao.org/rc-time-picker
+417 verbose request uri https://registry.npm.taobao.org/rc-tooltip
+418 verbose request no auth needed
+419 info attempt registry request try #1 at 09:56:16
+420 http request GET https://registry.npm.taobao.org/rc-tooltip
+421 verbose request uri https://registry.npm.taobao.org/rc-tree
+422 verbose request no auth needed
+423 info attempt registry request try #1 at 09:56:16
+424 http request GET https://registry.npm.taobao.org/rc-tree
+425 verbose request uri https://registry.npm.taobao.org/rc-tree-select
+426 verbose request no auth needed
+427 info attempt registry request try #1 at 09:56:16
+428 http request GET https://registry.npm.taobao.org/rc-tree-select
+429 verbose request uri https://registry.npm.taobao.org/rc-upload
+430 verbose request no auth needed
+431 info attempt registry request try #1 at 09:56:16
+432 http request GET https://registry.npm.taobao.org/rc-upload
+433 verbose request uri https://registry.npm.taobao.org/rc-util
+434 verbose request no auth needed
+435 info attempt registry request try #1 at 09:56:16
+436 http request GET https://registry.npm.taobao.org/rc-util
+437 verbose request uri https://registry.npm.taobao.org/react-lazy-load
+438 verbose request no auth needed
+439 info attempt registry request try #1 at 09:56:16
+440 http request GET https://registry.npm.taobao.org/react-lazy-load
+441 verbose request uri https://registry.npm.taobao.org/react-slick
+442 verbose request no auth needed
+443 info attempt registry request try #1 at 09:56:16
+444 http request GET https://registry.npm.taobao.org/react-slick
+445 verbose request uri https://registry.npm.taobao.org/shallowequal
+446 verbose request no auth needed
+447 info attempt registry request try #1 at 09:56:16
+448 http request GET https://registry.npm.taobao.org/shallowequal
+449 verbose request uri https://registry.npm.taobao.org/warning
+450 verbose request no auth needed
+451 info attempt registry request try #1 at 09:56:16
+452 http request GET https://registry.npm.taobao.org/warning
+453 verbose request uri https://registry.npm.taobao.org/array-tree-filter
+454 verbose request no auth needed
+455 info attempt registry request try #1 at 09:56:16
+456 verbose etag "1008-d7s7GHO1+NrUyR8Gf3TUCQ"
+457 http request GET https://registry.npm.taobao.org/array-tree-filter
+458 verbose request uri https://registry.npm.taobao.org/moment
+459 verbose request no auth needed
+460 info attempt registry request try #1 at 09:56:16
+461 verbose etag "1a223-vpk9CD//MAe5RTNWQ0zk5w"
+462 http request GET https://registry.npm.taobao.org/moment
+463 verbose request uri https://registry.npm.taobao.org/object-assign
+464 verbose request no auth needed
+465 info attempt registry request try #1 at 09:56:16
+466 verbose etag "5e51-1GypNfgSvHpsVhuoCT9DRw"
+467 http request GET https://registry.npm.taobao.org/object-assign
+468 verbose request uri https://registry.npm.taobao.org/babel-runtime
+469 verbose request no auth needed
+470 info attempt registry request try #1 at 09:56:16
+471 verbose etag "2f871-WYPfqIsudbieC7rpa02IbQ"
+472 http request GET https://registry.npm.taobao.org/babel-runtime
+473 http 200 https://registry.npm.taobao.org/classnames
+474 verbose headers { date: 'Mon, 14 Nov 2016 01:54:41 GMT',
+474 verbose headers   'content-type': 'application/json; charset=utf-8',
+474 verbose headers   'content-length': '34897',
+474 verbose headers   connection: 'keep-alive',
+474 verbose headers   'x-current-requests': '1',
+474 verbose headers   etag: '"8851-1VVrzayBwu4TImx6EBWd3g"',
+474 verbose headers   'x-readtime': '29' }
+475 silly get cb [ 200,
+475 silly get   { date: 'Mon, 14 Nov 2016 01:54:41 GMT',
+475 silly get     'content-type': 'application/json; charset=utf-8',
+475 silly get     'content-length': '34897',
+475 silly get     connection: 'keep-alive',
+475 silly get     'x-current-requests': '1',
+475 silly get     etag: '"8851-1VVrzayBwu4TImx6EBWd3g"',
+475 silly get     'x-readtime': '29' } ]
+476 verbose get saving classnames to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\classnames\.cache.json
+477 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+478 silly resolveWithNewModule classnames@2.2.5 checking installable status
+479 silly cache add args [ 'classnames@~2.2.0', null ]
+480 verbose cache add spec classnames@~2.2.0
+481 silly cache add parsed spec Result {
+481 silly cache add   raw: 'classnames@~2.2.0',
+481 silly cache add   scope: null,
+481 silly cache add   escapedName: 'classnames',
+481 silly cache add   name: 'classnames',
+481 silly cache add   rawSpec: '~2.2.0',
+481 silly cache add   spec: '>=2.2.0 <2.3.0',
+481 silly cache add   type: 'range' }
+482 silly addNamed classnames@>=2.2.0 <2.3.0
+483 verbose addNamed ">=2.2.0 <2.3.0" is a valid semver range for classnames
+484 silly addNameRange { name: 'classnames', range: '>=2.2.0 <2.3.0', hasData: false }
+485 silly mapToRegistry name classnames
+486 silly mapToRegistry using default registry
+487 silly mapToRegistry registry https://registry.npm.taobao.org/
+488 silly mapToRegistry data Result {
+488 silly mapToRegistry   raw: 'classnames',
+488 silly mapToRegistry   scope: null,
+488 silly mapToRegistry   escapedName: 'classnames',
+488 silly mapToRegistry   name: 'classnames',
+488 silly mapToRegistry   rawSpec: '',
+488 silly mapToRegistry   spec: 'latest',
+488 silly mapToRegistry   type: 'tag' }
+489 silly mapToRegistry uri https://registry.npm.taobao.org/classnames
+490 verbose addNameRange registry:https://registry.npm.taobao.org/classnames not in flight; fetching
+491 verbose get https://registry.npm.taobao.org/classnames not expired, no request
+492 silly addNameRange number 2 { name: 'classnames', range: '>=2.2.0 <2.3.0', hasData: true }
+493 silly addNameRange versions [ 'classnames',
+493 silly addNameRange   [ '2.2.5',
+493 silly addNameRange     '2.2.4',
+493 silly addNameRange     '2.2.3',
+493 silly addNameRange     '2.2.2',
+493 silly addNameRange     '2.2.1',
+493 silly addNameRange     '2.2.0',
+493 silly addNameRange     '2.1.5',
+493 silly addNameRange     '2.1.4',
+493 silly addNameRange     '2.1.3',
+493 silly addNameRange     '2.1.2',
+493 silly addNameRange     '2.1.1',
+493 silly addNameRange     '2.1.0',
+493 silly addNameRange     '2.0.0',
+493 silly addNameRange     '1.2.2',
+493 silly addNameRange     '1.2.1',
+493 silly addNameRange     '1.2.0',
+493 silly addNameRange     '1.1.4',
+493 silly addNameRange     '1.1.3',
+493 silly addNameRange     '1.1.2',
+493 silly addNameRange     '1.1.1',
+493 silly addNameRange     '1.1.0',
+493 silly addNameRange     '1.0.0' ] ]
+494 silly addNamed classnames@2.2.5
+495 verbose addNamed "2.2.5" is a plain semver version for classnames
+496 silly mapToRegistry name classnames
+497 silly mapToRegistry using default registry
+498 silly mapToRegistry registry https://registry.npm.taobao.org/
+499 silly mapToRegistry data Result {
+499 silly mapToRegistry   raw: 'classnames',
+499 silly mapToRegistry   scope: null,
+499 silly mapToRegistry   escapedName: 'classnames',
+499 silly mapToRegistry   name: 'classnames',
+499 silly mapToRegistry   rawSpec: '',
+499 silly mapToRegistry   spec: 'latest',
+499 silly mapToRegistry   type: 'tag' }
+500 silly mapToRegistry uri https://registry.npm.taobao.org/classnames
+501 verbose addRemoteTarball https://registry.npm.taobao.org/classnames/download/classnames-2.2.5.tgz not in flight; adding
+502 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/classnames/download/classnames-2.2.5.tgz',
+502 verbose addRemoteTarball   'fb3801d453467649ef3603c7d61a02bd129bde6d' ]
+503 info retry fetch attempt 1 at 09:56:17
+504 info attempt registry request try #1 at 09:56:17
+505 http fetch GET https://registry.npm.taobao.org/classnames/download/classnames-2.2.5.tgz
+506 http 200 https://registry.npm.taobao.org/gregorian-calendar-format
+507 verbose headers { date: 'Mon, 14 Nov 2016 01:54:41 GMT',
+507 verbose headers   'content-type': 'application/json; charset=utf-8',
+507 verbose headers   'content-length': '52297',
+507 verbose headers   connection: 'keep-alive',
+507 verbose headers   'x-current-requests': '1',
+507 verbose headers   etag: '"cc49-wh0o2FOQGF0JMudOEqNhUw"',
+507 verbose headers   'x-readtime': '28' }
+508 silly get cb [ 200,
+508 silly get   { date: 'Mon, 14 Nov 2016 01:54:41 GMT',
+508 silly get     'content-type': 'application/json; charset=utf-8',
+508 silly get     'content-length': '52297',
+508 silly get     connection: 'keep-alive',
+508 silly get     'x-current-requests': '1',
+508 silly get     etag: '"cc49-wh0o2FOQGF0JMudOEqNhUw"',
+508 silly get     'x-readtime': '28' } ]
+509 verbose get saving gregorian-calendar-format to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\gregorian-calendar-format\.cache.json
+510 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+511 silly resolveWithNewModule gregorian-calendar-format@4.1.3 checking installable status
+512 silly cache add args [ 'gregorian-calendar-format@~4.1.0', null ]
+513 verbose cache add spec gregorian-calendar-format@~4.1.0
+514 silly cache add parsed spec Result {
+514 silly cache add   raw: 'gregorian-calendar-format@~4.1.0',
+514 silly cache add   scope: null,
+514 silly cache add   escapedName: 'gregorian-calendar-format',
+514 silly cache add   name: 'gregorian-calendar-format',
+514 silly cache add   rawSpec: '~4.1.0',
+514 silly cache add   spec: '>=4.1.0 <4.2.0',
+514 silly cache add   type: 'range' }
+515 silly addNamed gregorian-calendar-format@>=4.1.0 <4.2.0
+516 verbose addNamed ">=4.1.0 <4.2.0" is a valid semver range for gregorian-calendar-format
+517 silly addNameRange { name: 'gregorian-calendar-format',
+517 silly addNameRange   range: '>=4.1.0 <4.2.0',
+517 silly addNameRange   hasData: false }
+518 silly mapToRegistry name gregorian-calendar-format
+519 silly mapToRegistry using default registry
+520 silly mapToRegistry registry https://registry.npm.taobao.org/
+521 silly mapToRegistry data Result {
+521 silly mapToRegistry   raw: 'gregorian-calendar-format',
+521 silly mapToRegistry   scope: null,
+521 silly mapToRegistry   escapedName: 'gregorian-calendar-format',
+521 silly mapToRegistry   name: 'gregorian-calendar-format',
+521 silly mapToRegistry   rawSpec: '',
+521 silly mapToRegistry   spec: 'latest',
+521 silly mapToRegistry   type: 'tag' }
+522 silly mapToRegistry uri https://registry.npm.taobao.org/gregorian-calendar-format
+523 verbose addNameRange registry:https://registry.npm.taobao.org/gregorian-calendar-format not in flight; fetching
+524 http fetch 200 https://registry.npm.taobao.org/classnames/download/classnames-2.2.5.tgz
+525 verbose get https://registry.npm.taobao.org/gregorian-calendar-format not expired, no request
+526 silly addNameRange number 2 { name: 'gregorian-calendar-format',
+526 silly addNameRange   range: '>=4.1.0 <4.2.0',
+526 silly addNameRange   hasData: true }
+527 silly addNameRange versions [ 'gregorian-calendar-format',
+527 silly addNameRange   [ '4.1.3',
+527 silly addNameRange     '4.1.2',
+527 silly addNameRange     '4.1.1',
+527 silly addNameRange     '4.1.0',
+527 silly addNameRange     '4.0.4',
+527 silly addNameRange     '4.0.3',
+527 silly addNameRange     '4.0.2',
+527 silly addNameRange     '4.0.1',
+527 silly addNameRange     '4.0.0',
+527 silly addNameRange     '3.1.0',
+527 silly addNameRange     '3.0.1',
+527 silly addNameRange     '3.0.0',
+527 silly addNameRange     '2.1.1',
+527 silly addNameRange     '2.1.0',
+527 silly addNameRange     '2.0.2',
+527 silly addNameRange     '2.0.1',
+527 silly addNameRange     '2.0.0',
+527 silly addNameRange     '1.0.4',
+527 silly addNameRange     '1.0.3',
+527 silly addNameRange     '1.0.2',
+527 silly addNameRange     '1.0.1',
+527 silly addNameRange     '1.0.0' ] ]
+528 silly addNamed gregorian-calendar-format@4.1.3
+529 verbose addNamed "4.1.3" is a plain semver version for gregorian-calendar-format
+530 silly mapToRegistry name gregorian-calendar-format
+531 silly mapToRegistry using default registry
+532 silly mapToRegistry registry https://registry.npm.taobao.org/
+533 silly mapToRegistry data Result {
+533 silly mapToRegistry   raw: 'gregorian-calendar-format',
+533 silly mapToRegistry   scope: null,
+533 silly mapToRegistry   escapedName: 'gregorian-calendar-format',
+533 silly mapToRegistry   name: 'gregorian-calendar-format',
+533 silly mapToRegistry   rawSpec: '',
+533 silly mapToRegistry   spec: 'latest',
+533 silly mapToRegistry   type: 'tag' }
+534 silly mapToRegistry uri https://registry.npm.taobao.org/gregorian-calendar-format
+535 verbose addRemoteTarball https://registry.npm.taobao.org/gregorian-calendar-format/download/gregorian-calendar-format-4.1.3.tgz not in flight; adding
+536 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/gregorian-calendar-format/download/gregorian-calendar-format-4.1.3.tgz',
+536 verbose addRemoteTarball   'd93e6b68996402c5f5274fec8811fffe0ab97248' ]
+537 silly fetchAndShaCheck shasum fb3801d453467649ef3603c7d61a02bd129bde6d
+538 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5200-3bd2c83f\registry.npm.taobao.org\classnames\download\classnames-2.2.5.tgz not in flight; adding
+539 verbose addTmpTarball already have metadata; skipping unpack for classnames@2.2.5
+540 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+541 info retry fetch attempt 1 at 09:56:17
+542 info attempt registry request try #1 at 09:56:17
+543 http fetch GET https://registry.npm.taobao.org/gregorian-calendar-format/download/gregorian-calendar-format-4.1.3.tgz
+544 silly cache afterAdd classnames@2.2.5
+545 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\classnames\2.2.5\package\package.json not in flight; writing
+546 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+547 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\classnames\2.2.5\package\package.json written
+548 http 200 https://registry.npm.taobao.org/gregorian-calendar
+549 verbose headers { date: 'Mon, 14 Nov 2016 01:54:41 GMT',
+549 verbose headers   'content-type': 'application/json; charset=utf-8',
+549 verbose headers   'content-length': '65609',
+549 verbose headers   connection: 'keep-alive',
+549 verbose headers   'x-current-requests': '1',
+549 verbose headers   etag: '"10049-rR5f4YuRxbKePg1aFj+YsQ"',
+549 verbose headers   'x-readtime': '28' }
+550 silly get cb [ 200,
+550 silly get   { date: 'Mon, 14 Nov 2016 01:54:41 GMT',
+550 silly get     'content-type': 'application/json; charset=utf-8',
+550 silly get     'content-length': '65609',
+550 silly get     connection: 'keep-alive',
+550 silly get     'x-current-requests': '1',
+550 silly get     etag: '"10049-rR5f4YuRxbKePg1aFj+YsQ"',
+550 silly get     'x-readtime': '28' } ]
+551 verbose get saving gregorian-calendar to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\gregorian-calendar\.cache.json
+552 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+553 silly resolveWithNewModule gregorian-calendar@4.1.6 checking installable status
+554 silly cache add args [ 'gregorian-calendar@~4.1.0', null ]
+555 verbose cache add spec gregorian-calendar@~4.1.0
+556 silly cache add parsed spec Result {
+556 silly cache add   raw: 'gregorian-calendar@~4.1.0',
+556 silly cache add   scope: null,
+556 silly cache add   escapedName: 'gregorian-calendar',
+556 silly cache add   name: 'gregorian-calendar',
+556 silly cache add   rawSpec: '~4.1.0',
+556 silly cache add   spec: '>=4.1.0 <4.2.0',
+556 silly cache add   type: 'range' }
+557 silly addNamed gregorian-calendar@>=4.1.0 <4.2.0
+558 verbose addNamed ">=4.1.0 <4.2.0" is a valid semver range for gregorian-calendar
+559 silly addNameRange { name: 'gregorian-calendar',
+559 silly addNameRange   range: '>=4.1.0 <4.2.0',
+559 silly addNameRange   hasData: false }
+560 silly mapToRegistry name gregorian-calendar
+561 silly mapToRegistry using default registry
+562 silly mapToRegistry registry https://registry.npm.taobao.org/
+563 silly mapToRegistry data Result {
+563 silly mapToRegistry   raw: 'gregorian-calendar',
+563 silly mapToRegistry   scope: null,
+563 silly mapToRegistry   escapedName: 'gregorian-calendar',
+563 silly mapToRegistry   name: 'gregorian-calendar',
+563 silly mapToRegistry   rawSpec: '',
+563 silly mapToRegistry   spec: 'latest',
+563 silly mapToRegistry   type: 'tag' }
+564 silly mapToRegistry uri https://registry.npm.taobao.org/gregorian-calendar
+565 verbose addNameRange registry:https://registry.npm.taobao.org/gregorian-calendar not in flight; fetching
+566 verbose get https://registry.npm.taobao.org/gregorian-calendar not expired, no request
+567 silly addNameRange number 2 { name: 'gregorian-calendar',
+567 silly addNameRange   range: '>=4.1.0 <4.2.0',
+567 silly addNameRange   hasData: true }
+568 silly addNameRange versions [ 'gregorian-calendar',
+568 silly addNameRange   [ '4.1.6',
+568 silly addNameRange     '4.1.5',
+568 silly addNameRange     '4.1.4',
+568 silly addNameRange     '4.1.3',
+568 silly addNameRange     '4.1.2',
+568 silly addNameRange     '4.1.1',
+568 silly addNameRange     '4.1.0',
+568 silly addNameRange     '4.0.4',
+568 silly addNameRange     '4.0.3',
+568 silly addNameRange     '4.0.2',
+568 silly addNameRange     '4.0.1',
+568 silly addNameRange     '4.0.0',
+568 silly addNameRange     '3.2.2',
+568 silly addNameRange     '3.2.1',
+568 silly addNameRange     '3.2.0',
+568 silly addNameRange     '3.1.0',
+568 silly addNameRange     '3.0.0',
+568 silly addNameRange     '2.0.5',
+568 silly addNameRange     '2.0.4',
+568 silly addNameRange     '2.0.3',
+568 silly addNameRange     '2.0.2',
+568 silly addNameRange     '2.0.1',
+568 silly addNameRange     '2.0.0',
+568 silly addNameRange     '1.0.5',
+568 silly addNameRange     '1.0.4',
+568 silly addNameRange     '1.0.3',
+568 silly addNameRange     '1.0.2',
+568 silly addNameRange     '1.0.1',
+568 silly addNameRange     '1.0.0' ] ]
+569 silly addNamed gregorian-calendar@4.1.6
+570 verbose addNamed "4.1.6" is a plain semver version for gregorian-calendar
+571 silly mapToRegistry name gregorian-calendar
+572 silly mapToRegistry using default registry
+573 silly mapToRegistry registry https://registry.npm.taobao.org/
+574 silly mapToRegistry data Result {
+574 silly mapToRegistry   raw: 'gregorian-calendar',
+574 silly mapToRegistry   scope: null,
+574 silly mapToRegistry   escapedName: 'gregorian-calendar',
+574 silly mapToRegistry   name: 'gregorian-calendar',
+574 silly mapToRegistry   rawSpec: '',
+574 silly mapToRegistry   spec: 'latest',
+574 silly mapToRegistry   type: 'tag' }
+575 silly mapToRegistry uri https://registry.npm.taobao.org/gregorian-calendar
+576 verbose addRemoteTarball https://registry.npm.taobao.org/gregorian-calendar/download/gregorian-calendar-4.1.6.tgz not in flight; adding
+577 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/gregorian-calendar/download/gregorian-calendar-4.1.6.tgz',
+577 verbose addRemoteTarball   '1051b693d6a5e95483ba5f1d10646b9cf6420a03' ]
+578 info retry fetch attempt 1 at 09:56:17
+579 info attempt registry request try #1 at 09:56:17
+580 http fetch GET https://registry.npm.taobao.org/gregorian-calendar/download/gregorian-calendar-4.1.6.tgz
+581 http fetch 200 https://registry.npm.taobao.org/gregorian-calendar-format/download/gregorian-calendar-format-4.1.3.tgz
+582 silly fetchAndShaCheck shasum d93e6b68996402c5f5274fec8811fffe0ab97248
+583 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5200-3bd2c83f\registry.npm.taobao.org\gregorian-calendar-format\download\gregorian-calendar-format-4.1.3.tgz not in flight; adding
+584 verbose addTmpTarball already have metadata; skipping unpack for gregorian-calendar-format@4.1.3
+585 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+586 silly cache afterAdd gregorian-calendar-format@4.1.3
+587 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\gregorian-calendar-format\4.1.3\package\package.json not in flight; writing
+588 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+589 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\gregorian-calendar-format\4.1.3\package\package.json written
+590 http fetch 200 https://registry.npm.taobao.org/gregorian-calendar/download/gregorian-calendar-4.1.6.tgz
+591 silly fetchAndShaCheck shasum 1051b693d6a5e95483ba5f1d10646b9cf6420a03
+592 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5200-3bd2c83f\registry.npm.taobao.org\gregorian-calendar\download\gregorian-calendar-4.1.6.tgz not in flight; adding
+593 verbose addTmpTarball already have metadata; skipping unpack for gregorian-calendar@4.1.6
+594 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+595 silly cache afterAdd gregorian-calendar@4.1.6
+596 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\gregorian-calendar\4.1.6\package\package.json not in flight; writing
+597 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+598 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\gregorian-calendar\4.1.6\package\package.json written
+599 http 200 https://registry.npm.taobao.org/css-animation
+600 verbose headers { date: 'Mon, 14 Nov 2016 01:54:41 GMT',
+600 verbose headers   'content-type': 'application/json; charset=utf-8',
+600 verbose headers   'content-length': '27580',
+600 verbose headers   connection: 'keep-alive',
+600 verbose headers   'x-current-requests': '1',
+600 verbose headers   etag: '"6bbc-tgzaciQDNPopbhcdNT3cvg"',
+600 verbose headers   'x-readtime': '18' }
+601 silly get cb [ 200,
+601 silly get   { date: 'Mon, 14 Nov 2016 01:54:41 GMT',
+601 silly get     'content-type': 'application/json; charset=utf-8',
+601 silly get     'content-length': '27580',
+601 silly get     connection: 'keep-alive',
+601 silly get     'x-current-requests': '1',
+601 silly get     etag: '"6bbc-tgzaciQDNPopbhcdNT3cvg"',
+601 silly get     'x-readtime': '18' } ]
+602 verbose get saving css-animation to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\css-animation\.cache.json
+603 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+604 silly resolveWithNewModule css-animation@1.3.0 checking installable status
+605 silly cache add args [ 'css-animation@^1.2.5', null ]
+606 verbose cache add spec css-animation@^1.2.5
+607 silly cache add parsed spec Result {
+607 silly cache add   raw: 'css-animation@^1.2.5',
+607 silly cache add   scope: null,
+607 silly cache add   escapedName: 'css-animation',
+607 silly cache add   name: 'css-animation',
+607 silly cache add   rawSpec: '^1.2.5',
+607 silly cache add   spec: '>=1.2.5 <2.0.0',
+607 silly cache add   type: 'range' }
+608 silly addNamed css-animation@>=1.2.5 <2.0.0
+609 verbose addNamed ">=1.2.5 <2.0.0" is a valid semver range for css-animation
+610 silly addNameRange { name: 'css-animation',
+610 silly addNameRange   range: '>=1.2.5 <2.0.0',
+610 silly addNameRange   hasData: false }
+611 silly mapToRegistry name css-animation
+612 silly mapToRegistry using default registry
+613 silly mapToRegistry registry https://registry.npm.taobao.org/
+614 silly mapToRegistry data Result {
+614 silly mapToRegistry   raw: 'css-animation',
+614 silly mapToRegistry   scope: null,
+614 silly mapToRegistry   escapedName: 'css-animation',
+614 silly mapToRegistry   name: 'css-animation',
+614 silly mapToRegistry   rawSpec: '',
+614 silly mapToRegistry   spec: 'latest',
+614 silly mapToRegistry   type: 'tag' }
+615 silly mapToRegistry uri https://registry.npm.taobao.org/css-animation
+616 verbose addNameRange registry:https://registry.npm.taobao.org/css-animation not in flight; fetching
+617 verbose get https://registry.npm.taobao.org/css-animation not expired, no request
+618 silly addNameRange number 2 { name: 'css-animation', range: '>=1.2.5 <2.0.0', hasData: true }
+619 silly addNameRange versions [ 'css-animation',
+619 silly addNameRange   [ '1.3.0',
+619 silly addNameRange     '1.2.6',
+619 silly addNameRange     '1.2.5',
+619 silly addNameRange     '1.2.3',
+619 silly addNameRange     '1.2.2',
+619 silly addNameRange     '1.2.1',
+619 silly addNameRange     '1.2.0',
+619 silly addNameRange     '1.1.1',
+619 silly addNameRange     '1.1.0',
+619 silly addNameRange     '1.0.5',
+619 silly addNameRange     '1.0.4',
+619 silly addNameRange     '1.0.3',
+619 silly addNameRange     '1.0.2',
+619 silly addNameRange     '1.0.1',
+619 silly addNameRange     '1.0.0' ] ]
+620 silly addNamed css-animation@1.3.0
+621 verbose addNamed "1.3.0" is a plain semver version for css-animation
+622 silly mapToRegistry name css-animation
+623 silly mapToRegistry using default registry
+624 silly mapToRegistry registry https://registry.npm.taobao.org/
+625 silly mapToRegistry data Result {
+625 silly mapToRegistry   raw: 'css-animation',
+625 silly mapToRegistry   scope: null,
+625 silly mapToRegistry   escapedName: 'css-animation',
+625 silly mapToRegistry   name: 'css-animation',
+625 silly mapToRegistry   rawSpec: '',
+625 silly mapToRegistry   spec: 'latest',
+625 silly mapToRegistry   type: 'tag' }
+626 silly mapToRegistry uri https://registry.npm.taobao.org/css-animation
+627 verbose addRemoteTarball https://registry.npm.taobao.org/css-animation/download/css-animation-1.3.0.tgz not in flight; adding
+628 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/css-animation/download/css-animation-1.3.0.tgz',
+628 verbose addRemoteTarball   '315d9742bbe282c23b9951ceac2aa53cee05b708' ]
+629 info retry fetch attempt 1 at 09:56:17
+630 info attempt registry request try #1 at 09:56:17
+631 http fetch GET https://registry.npm.taobao.org/css-animation/download/css-animation-1.3.0.tgz
+632 http fetch 200 https://registry.npm.taobao.org/css-animation/download/css-animation-1.3.0.tgz
+633 silly fetchAndShaCheck shasum 315d9742bbe282c23b9951ceac2aa53cee05b708
+634 verbose addTmpTarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-5200-3bd2c83f\registry.npm.taobao.org\css-animation\download\css-animation-1.3.0.tgz not in flight; adding
+635 verbose addTmpTarball already have metadata; skipping unpack for css-animation@1.3.0
+636 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+637 silly cache afterAdd css-animation@1.3.0
+638 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\css-animation\1.3.0\package\package.json not in flight; writing
+639 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+640 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\css-animation\1.3.0\package\package.json written
+641 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+642 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+643 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+644 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+645 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+646 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+647 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+648 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+649 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+650 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+651 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+652 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+653 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+654 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+655 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+656 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+657 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+658 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+659 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+660 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+661 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+662 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+663 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+664 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+665 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+666 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+667 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+668 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+669 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+670 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+671 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+672 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+673 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+674 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+675 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+676 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+677 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+678 info attempt registry request try #2 at 09:56:47
+679 http request GET https://registry.npm.taobao.org/rc-dialog
+680 info attempt registry request try #2 at 09:56:47
+681 http request GET https://registry.npm.taobao.org/rc-calendar
+682 info attempt registry request try #2 at 09:56:47
+683 http request GET https://registry.npm.taobao.org/rc-editor-mention
+684 info attempt registry request try #2 at 09:56:47
+685 http request GET https://registry.npm.taobao.org/omit.js
+686 info attempt registry request try #2 at 09:56:47
+687 http request GET https://registry.npm.taobao.org/rc-menu
+688 info attempt registry request try #2 at 09:56:47
+689 http request GET https://registry.npm.taobao.org/rc-checkbox
+690 info attempt registry request try #2 at 09:56:47
+691 http request GET https://registry.npm.taobao.org/rc-input-number
+692 info attempt registry request try #2 at 09:56:47
+693 http request GET https://registry.npm.taobao.org/rc-dropdown
+694 info attempt registry request try #2 at 09:56:47
+695 http request GET https://registry.npm.taobao.org/rc-form
+696 info attempt registry request try #2 at 09:56:47
+697 http request GET https://registry.npm.taobao.org/rc-cascader
+698 info attempt registry request try #2 at 09:56:47
+699 http request GET https://registry.npm.taobao.org/rc-animate
+700 info attempt registry request try #2 at 09:56:47
+701 http request GET https://registry.npm.taobao.org/rc-notification
+702 info attempt registry request try #2 at 09:56:47
+703 http request GET https://registry.npm.taobao.org/rc-collapse
+704 info attempt registry request try #2 at 09:56:47
+705 http request GET https://registry.npm.taobao.org/rc-tree
+706 info attempt registry request try #2 at 09:56:47
+707 http request GET https://registry.npm.taobao.org/rc-pagination
+708 info attempt registry request try #2 at 09:56:47
+709 http request GET https://registry.npm.taobao.org/rc-upload
+710 info attempt registry request try #2 at 09:56:47
+711 http request GET https://registry.npm.taobao.org/rc-radio
+712 info attempt registry request try #2 at 09:56:47
+713 http request GET https://registry.npm.taobao.org/rc-steps
+714 info attempt registry request try #2 at 09:56:47
+715 http request GET https://registry.npm.taobao.org/react-lazy-load
+716 info attempt registry request try #2 at 09:56:47
+717 http request GET https://registry.npm.taobao.org/rc-time-picker
+718 info attempt registry request try #2 at 09:56:47
+719 http request GET https://registry.npm.taobao.org/rc-table
+720 info attempt registry request try #2 at 09:56:47
+721 http request GET https://registry.npm.taobao.org/shallowequal
+722 info attempt registry request try #2 at 09:56:47
+723 http request GET https://registry.npm.taobao.org/rc-select
+724 info attempt registry request try #2 at 09:56:47
+725 http request GET https://registry.npm.taobao.org/rc-slider
+726 info attempt registry request try #2 at 09:56:47
+727 http request GET https://registry.npm.taobao.org/rc-switch
+728 info attempt registry request try #2 at 09:56:47
+729 http request GET https://registry.npm.taobao.org/warning
+730 info attempt registry request try #2 at 09:56:47
+731 http request GET https://registry.npm.taobao.org/rc-rate
+732 info attempt registry request try #2 at 09:56:47
+733 http request GET https://registry.npm.taobao.org/rc-tabs
+734 info attempt registry request try #2 at 09:56:47
+735 http request GET https://registry.npm.taobao.org/rc-util
+736 info attempt registry request try #2 at 09:56:47
+737 http request GET https://registry.npm.taobao.org/rc-tooltip
+738 info attempt registry request try #2 at 09:56:47
+739 http request GET https://registry.npm.taobao.org/rc-progress
+740 info attempt registry request try #2 at 09:56:47
+741 http request GET https://registry.npm.taobao.org/react-slick
+742 info attempt registry request try #2 at 09:56:47
+743 http request GET https://registry.npm.taobao.org/rc-tree-select
+744 info attempt registry request try #2 at 09:56:47
+745 verbose etag "1008-d7s7GHO1+NrUyR8Gf3TUCQ"
+746 http request GET https://registry.npm.taobao.org/array-tree-filter
+747 info attempt registry request try #2 at 09:56:47
+748 verbose etag "5e51-1GypNfgSvHpsVhuoCT9DRw"
+749 http request GET https://registry.npm.taobao.org/object-assign
+750 info attempt registry request try #2 at 09:56:47
+751 verbose etag "2f871-WYPfqIsudbieC7rpa02IbQ"
+752 http request GET https://registry.npm.taobao.org/babel-runtime
+753 info attempt registry request try #2 at 09:56:47
+754 verbose etag "1a223-vpk9CD//MAe5RTNWQ0zk5w"
+755 http request GET https://registry.npm.taobao.org/moment
+756 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+757 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+758 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+759 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+760 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+761 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+762 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+763 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+764 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+765 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+766 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+767 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+768 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+769 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+770 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+771 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+772 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+773 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+774 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+775 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+776 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+777 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+778 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+779 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+780 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+781 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+782 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+783 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+784 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+785 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+786 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+787 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+788 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+789 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+790 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+791 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+792 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 114.55.80.225:443
+793 info attempt registry request try #3 at 09:58:08
+794 http request GET https://registry.npm.taobao.org/rc-tabs
+795 info attempt registry request try #3 at 09:58:08
+796 http request GET https://registry.npm.taobao.org/rc-dialog
+797 info attempt registry request try #3 at 09:58:08
+798 http request GET https://registry.npm.taobao.org/warning
+799 info attempt registry request try #3 at 09:58:08
+800 http request GET https://registry.npm.taobao.org/rc-pagination
+801 info attempt registry request try #3 at 09:58:08
+802 http request GET https://registry.npm.taobao.org/rc-menu
+803 info attempt registry request try #3 at 09:58:08
+804 http request GET https://registry.npm.taobao.org/rc-editor-mention
+805 info attempt registry request try #3 at 09:58:08
+806 http request GET https://registry.npm.taobao.org/rc-radio
+807 info attempt registry request try #3 at 09:58:08
+808 http request GET https://registry.npm.taobao.org/rc-slider
+809 info attempt registry request try #3 at 09:58:08
+810 http request GET https://registry.npm.taobao.org/rc-tooltip
+811 info attempt registry request try #3 at 09:58:08
+812 http request GET https://registry.npm.taobao.org/rc-form
+813 info attempt registry request try #3 at 09:58:08
+814 http request GET https://registry.npm.taobao.org/rc-animate
+815 info attempt registry request try #3 at 09:58:08
+816 verbose etag "2f871-WYPfqIsudbieC7rpa02IbQ"
+817 http request GET https://registry.npm.taobao.org/babel-runtime
+818 info attempt registry request try #3 at 09:58:08
+819 http request GET https://registry.npm.taobao.org/react-slick
+820 info attempt registry request try #3 at 09:58:08
+821 http request GET https://registry.npm.taobao.org/shallowequal
+822 info attempt registry request try #3 at 09:58:08
+823 http request GET https://registry.npm.taobao.org/rc-time-picker
+824 info attempt registry request try #3 at 09:58:08
+825 verbose etag "1008-d7s7GHO1+NrUyR8Gf3TUCQ"
+826 http request GET https://registry.npm.taobao.org/array-tree-filter
+827 info attempt registry request try #3 at 09:58:08
+828 http request GET https://registry.npm.taobao.org/rc-input-number
+829 info attempt registry request try #3 at 09:58:08
+830 http request GET https://registry.npm.taobao.org/rc-collapse
+831 info attempt registry request try #3 at 09:58:08
+832 http request GET https://registry.npm.taobao.org/rc-tree
+833 info attempt registry request try #3 at 09:58:08
+834 http request GET https://registry.npm.taobao.org/rc-tree-select
+835 info attempt registry request try #3 at 09:58:08
+836 http request GET https://registry.npm.taobao.org/rc-table
+837 info attempt registry request try #3 at 09:58:08
+838 http request GET https://registry.npm.taobao.org/rc-cascader
+839 info attempt registry request try #3 at 09:58:08
+840 verbose etag "5e51-1GypNfgSvHpsVhuoCT9DRw"
+841 http request GET https://registry.npm.taobao.org/object-assign
+842 info attempt registry request try #3 at 09:58:08
+843 http request GET https://registry.npm.taobao.org/rc-select
+844 info attempt registry request try #3 at 09:58:08
+845 http request GET https://registry.npm.taobao.org/omit.js
+846 info attempt registry request try #3 at 09:58:08
+847 http request GET https://registry.npm.taobao.org/rc-upload
+848 info attempt registry request try #3 at 09:58:08
+849 http request GET https://registry.npm.taobao.org/rc-rate
+850 info attempt registry request try #3 at 09:58:08
+851 http request GET https://registry.npm.taobao.org/rc-dropdown
+852 info attempt registry request try #3 at 09:58:08
+853 verbose etag "1a223-vpk9CD//MAe5RTNWQ0zk5w"
+854 http request GET https://registry.npm.taobao.org/moment
+855 info attempt registry request try #3 at 09:58:08
+856 http request GET https://registry.npm.taobao.org/react-lazy-load
+857 info attempt registry request try #3 at 09:58:08
+858 http request GET https://registry.npm.taobao.org/rc-progress
+859 info attempt registry request try #3 at 09:58:08
+860 http request GET https://registry.npm.taobao.org/rc-notification
+861 info attempt registry request try #3 at 09:58:08
+862 http request GET https://registry.npm.taobao.org/rc-util
+863 info attempt registry request try #3 at 09:58:08
+864 http request GET https://registry.npm.taobao.org/rc-steps
+865 info attempt registry request try #3 at 09:58:08
+866 http request GET https://registry.npm.taobao.org/rc-checkbox
+867 info attempt registry request try #3 at 09:58:08
+868 http request GET https://registry.npm.taobao.org/rc-calendar
+869 info attempt registry request try #3 at 09:58:08
+870 http request GET https://registry.npm.taobao.org/rc-switch
+871 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+871 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+871 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+871 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+871 silly fetchPackageMetaData  error for rc-tooltip@~3.4.2 { Error: connect ETIMEDOUT 114.55.80.225:443
+871 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+871 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+871 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+871 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+871 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+871 silly fetchPackageMetaData   syscall: 'connect',
+871 silly fetchPackageMetaData   address: '114.55.80.225',
+871 silly fetchPackageMetaData   port: 443 }
+872 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+872 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+872 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+872 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+872 silly fetchPackageMetaData  error for rc-calendar@~7.4.1 { Error: connect ETIMEDOUT 114.55.80.225:443
+872 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+872 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+872 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+872 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+872 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+872 silly fetchPackageMetaData   syscall: 'connect',
+872 silly fetchPackageMetaData   address: '114.55.80.225',
+872 silly fetchPackageMetaData   port: 443 }
+873 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+873 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+873 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+873 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+873 silly fetchPackageMetaData  error for rc-cascader@~0.10.1 { Error: connect ETIMEDOUT 114.55.80.225:443
+873 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+873 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+873 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+873 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+873 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+873 silly fetchPackageMetaData   syscall: 'connect',
+873 silly fetchPackageMetaData   address: '114.55.80.225',
+873 silly fetchPackageMetaData   port: 443 }
+874 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+874 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+874 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+874 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+874 silly fetchPackageMetaData  error for rc-steps@~2.2.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+874 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+874 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+874 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+874 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+874 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+874 silly fetchPackageMetaData   syscall: 'connect',
+874 silly fetchPackageMetaData   address: '114.55.80.225',
+874 silly fetchPackageMetaData   port: 443 }
+875 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+875 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+875 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+875 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+875 silly fetchPackageMetaData  error for react-slick@~0.14.2 { Error: connect ETIMEDOUT 114.55.80.225:443
+875 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+875 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+875 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+875 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+875 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+875 silly fetchPackageMetaData   syscall: 'connect',
+875 silly fetchPackageMetaData   address: '114.55.80.225',
+875 silly fetchPackageMetaData   port: 443 }
+876 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+876 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+876 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+876 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+876 silly fetchPackageMetaData  error for rc-dropdown@~1.4.8 { Error: connect ETIMEDOUT 114.55.80.225:443
+876 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+876 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+876 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+876 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+876 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+876 silly fetchPackageMetaData   syscall: 'connect',
+876 silly fetchPackageMetaData   address: '114.55.80.225',
+876 silly fetchPackageMetaData   port: 443 }
+877 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+877 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+877 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+877 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+877 silly fetchPackageMetaData  error for rc-time-picker@~2.2.1 { Error: connect ETIMEDOUT 114.55.80.225:443
+877 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+877 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+877 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+877 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+877 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+877 silly fetchPackageMetaData   syscall: 'connect',
+877 silly fetchPackageMetaData   address: '114.55.80.225',
+877 silly fetchPackageMetaData   port: 443 }
+878 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+878 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+878 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+878 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+878 silly fetchPackageMetaData  error for warning@~3.0.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+878 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+878 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+878 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+878 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+878 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+878 silly fetchPackageMetaData   syscall: 'connect',
+878 silly fetchPackageMetaData   address: '114.55.80.225',
+878 silly fetchPackageMetaData   port: 443 }
+879 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+879 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+879 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+879 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+879 silly fetchPackageMetaData  error for rc-dialog@~6.5.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+879 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+879 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+879 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+879 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+879 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+879 silly fetchPackageMetaData   syscall: 'connect',
+879 silly fetchPackageMetaData   address: '114.55.80.225',
+879 silly fetchPackageMetaData   port: 443 }
+880 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+880 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+880 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+880 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+880 silly fetchPackageMetaData  error for rc-select@~6.6.1 { Error: connect ETIMEDOUT 114.55.80.225:443
+880 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+880 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+880 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+880 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+880 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+880 silly fetchPackageMetaData   syscall: 'connect',
+880 silly fetchPackageMetaData   address: '114.55.80.225',
+880 silly fetchPackageMetaData   port: 443 }
+881 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+881 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+881 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+881 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+881 silly fetchPackageMetaData  error for rc-animate@~2.3.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+881 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+881 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+881 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+881 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+881 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+881 silly fetchPackageMetaData   syscall: 'connect',
+881 silly fetchPackageMetaData   address: '114.55.80.225',
+881 silly fetchPackageMetaData   port: 443 }
+882 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+882 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+882 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+882 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+882 silly fetchPackageMetaData  error for rc-notification@~1.3.4 { Error: connect ETIMEDOUT 114.55.80.225:443
+882 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+882 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+882 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+882 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+882 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+882 silly fetchPackageMetaData   syscall: 'connect',
+882 silly fetchPackageMetaData   address: '114.55.80.225',
+882 silly fetchPackageMetaData   port: 443 }
+883 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+883 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+883 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+883 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+883 silly fetchPackageMetaData  error for rc-tabs@~7.0.5 { Error: connect ETIMEDOUT 114.55.80.225:443
+883 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+883 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+883 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+883 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+883 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+883 silly fetchPackageMetaData   syscall: 'connect',
+883 silly fetchPackageMetaData   address: '114.55.80.225',
+883 silly fetchPackageMetaData   port: 443 }
+884 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+884 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+884 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+884 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+884 silly fetchPackageMetaData  error for rc-tree-select@~1.8.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+884 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+884 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+884 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+884 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+884 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+884 silly fetchPackageMetaData   syscall: 'connect',
+884 silly fetchPackageMetaData   address: '114.55.80.225',
+884 silly fetchPackageMetaData   port: 443 }
+885 silly get cb [ 304, undefined ]
+886 verbose etag https://registry.npm.taobao.org/object-assign from cache
+887 verbose get saving object-assign to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\object-assign\.cache.json
+888 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+889 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+889 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+889 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+889 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+889 silly fetchPackageMetaData  error for rc-radio@~2.0.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+889 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+889 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+889 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+889 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+889 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+889 silly fetchPackageMetaData   syscall: 'connect',
+889 silly fetchPackageMetaData   address: '114.55.80.225',
+889 silly fetchPackageMetaData   port: 443 }
+890 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+890 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+890 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+890 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+890 silly fetchPackageMetaData  error for rc-pagination@~1.5.3 { Error: connect ETIMEDOUT 114.55.80.225:443
+890 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+890 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+890 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+890 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+890 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+890 silly fetchPackageMetaData   syscall: 'connect',
+890 silly fetchPackageMetaData   address: '114.55.80.225',
+890 silly fetchPackageMetaData   port: 443 }
+891 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+891 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+891 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+891 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+891 silly fetchPackageMetaData  error for rc-upload@~2.2.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+891 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+891 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+891 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+891 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+891 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+891 silly fetchPackageMetaData   syscall: 'connect',
+891 silly fetchPackageMetaData   address: '114.55.80.225',
+891 silly fetchPackageMetaData   port: 443 }
+892 silly get cb [ 304, undefined ]
+893 verbose etag https://registry.npm.taobao.org/array-tree-filter from cache
+894 verbose get saving array-tree-filter to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\array-tree-filter\.cache.json
+895 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+896 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+896 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+896 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+896 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+896 silly fetchPackageMetaData  error for rc-menu@~5.0.1 { Error: connect ETIMEDOUT 114.55.80.225:443
+896 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+896 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+896 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+896 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+896 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+896 silly fetchPackageMetaData   syscall: 'connect',
+896 silly fetchPackageMetaData   address: '114.55.80.225',
+896 silly fetchPackageMetaData   port: 443 }
+897 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+897 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+897 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+897 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+897 silly fetchPackageMetaData  error for rc-rate@~1.1.2 { Error: connect ETIMEDOUT 114.55.80.225:443
+897 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+897 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+897 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+897 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+897 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+897 silly fetchPackageMetaData   syscall: 'connect',
+897 silly fetchPackageMetaData   address: '114.55.80.225',
+897 silly fetchPackageMetaData   port: 443 }
+898 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+898 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+898 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+898 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+898 silly fetchPackageMetaData  error for rc-input-number@~2.7.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+898 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+898 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+898 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+898 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+898 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+898 silly fetchPackageMetaData   syscall: 'connect',
+898 silly fetchPackageMetaData   address: '114.55.80.225',
+898 silly fetchPackageMetaData   port: 443 }
+899 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+899 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+899 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+899 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+899 silly fetchPackageMetaData  error for shallowequal@^0.2.2 { Error: connect ETIMEDOUT 114.55.80.225:443
+899 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+899 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+899 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+899 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+899 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+899 silly fetchPackageMetaData   syscall: 'connect',
+899 silly fetchPackageMetaData   address: '114.55.80.225',
+899 silly fetchPackageMetaData   port: 443 }
+900 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+900 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+900 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+900 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+900 silly fetchPackageMetaData  error for react-lazy-load@^3.0.10 { Error: connect ETIMEDOUT 114.55.80.225:443
+900 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+900 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+900 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+900 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+900 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+900 silly fetchPackageMetaData   syscall: 'connect',
+900 silly fetchPackageMetaData   address: '114.55.80.225',
+900 silly fetchPackageMetaData   port: 443 }
+901 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+901 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+901 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+901 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+901 silly fetchPackageMetaData  error for rc-util@^4.0.1 { Error: connect ETIMEDOUT 114.55.80.225:443
+901 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+901 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+901 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+901 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+901 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+901 silly fetchPackageMetaData   syscall: 'connect',
+901 silly fetchPackageMetaData   address: '114.55.80.225',
+901 silly fetchPackageMetaData   port: 443 }
+902 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+902 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+902 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+902 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+902 silly fetchPackageMetaData  error for rc-table@~5.0.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+902 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+902 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+902 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+902 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+902 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+902 silly fetchPackageMetaData   syscall: 'connect',
+902 silly fetchPackageMetaData   address: '114.55.80.225',
+902 silly fetchPackageMetaData   port: 443 }
+903 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+903 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+903 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+903 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+903 silly fetchPackageMetaData  error for rc-form@~1.0.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+903 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+903 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+903 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+903 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+903 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+903 silly fetchPackageMetaData   syscall: 'connect',
+903 silly fetchPackageMetaData   address: '114.55.80.225',
+903 silly fetchPackageMetaData   port: 443 }
+904 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+904 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+904 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+904 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+904 silly fetchPackageMetaData  error for rc-checkbox@~1.4.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+904 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+904 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+904 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+904 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+904 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+904 silly fetchPackageMetaData   syscall: 'connect',
+904 silly fetchPackageMetaData   address: '114.55.80.225',
+904 silly fetchPackageMetaData   port: 443 }
+905 silly get cb [ 304, undefined ]
+906 verbose etag https://registry.npm.taobao.org/moment from cache
+907 verbose get saving moment to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\moment\.cache.json
+908 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+909 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+909 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+909 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+909 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+909 silly fetchPackageMetaData  error for rc-collapse@~1.6.4 { Error: connect ETIMEDOUT 114.55.80.225:443
+909 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+909 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+909 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+909 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+909 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+909 silly fetchPackageMetaData   syscall: 'connect',
+909 silly fetchPackageMetaData   address: '114.55.80.225',
+909 silly fetchPackageMetaData   port: 443 }
+910 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+910 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+910 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+910 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+910 silly fetchPackageMetaData  error for rc-editor-mention@~0.3.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+910 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+910 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+910 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+910 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+910 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+910 silly fetchPackageMetaData   syscall: 'connect',
+910 silly fetchPackageMetaData   address: '114.55.80.225',
+910 silly fetchPackageMetaData   port: 443 }
+911 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+911 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+911 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+911 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+911 silly fetchPackageMetaData  error for omit.js@^0.1.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+911 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+911 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+911 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+911 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+911 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+911 silly fetchPackageMetaData   syscall: 'connect',
+911 silly fetchPackageMetaData   address: '114.55.80.225',
+911 silly fetchPackageMetaData   port: 443 }
+912 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+912 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+912 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+912 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+912 silly fetchPackageMetaData  error for rc-slider@~5.2.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+912 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+912 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+912 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+912 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+912 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+912 silly fetchPackageMetaData   syscall: 'connect',
+912 silly fetchPackageMetaData   address: '114.55.80.225',
+912 silly fetchPackageMetaData   port: 443 }
+913 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+913 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+913 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+913 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+913 silly fetchPackageMetaData  error for rc-switch@~1.4.2 { Error: connect ETIMEDOUT 114.55.80.225:443
+913 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+913 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+913 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+913 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+913 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+913 silly fetchPackageMetaData   syscall: 'connect',
+913 silly fetchPackageMetaData   address: '114.55.80.225',
+913 silly fetchPackageMetaData   port: 443 }
+914 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+914 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+914 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+914 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+914 silly fetchPackageMetaData  error for rc-tree@~1.4.0 { Error: connect ETIMEDOUT 114.55.80.225:443
+914 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+914 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+914 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+914 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+914 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+914 silly fetchPackageMetaData   syscall: 'connect',
+914 silly fetchPackageMetaData   address: '114.55.80.225',
+914 silly fetchPackageMetaData   port: 443 }
+915 silly fetchPackageMetaData Error: connect ETIMEDOUT 114.55.80.225:443
+915 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+915 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+915 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+915 silly fetchPackageMetaData  error for rc-progress@~2.0.1 { Error: connect ETIMEDOUT 114.55.80.225:443
+915 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1026:11)
+915 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1049:20)
+915 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+915 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+915 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+915 silly fetchPackageMetaData   syscall: 'connect',
+915 silly fetchPackageMetaData   address: '114.55.80.225',
+915 silly fetchPackageMetaData   port: 443 }
+916 silly get cb [ 304, undefined ]
+917 verbose etag https://registry.npm.taobao.org/babel-runtime from cache
+918 verbose get saving babel-runtime to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npm.taobao.org\babel-runtime\.cache.json
+919 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+920 silly resolveWithNewModule object-assign@4.1.0 checking installable status
+921 silly cache add args [ 'object-assign@~4.1.0', null ]
+922 verbose cache add spec object-assign@~4.1.0
+923 silly cache add parsed spec Result {
+923 silly cache add   raw: 'object-assign@~4.1.0',
+923 silly cache add   scope: null,
+923 silly cache add   escapedName: 'object-assign',
+923 silly cache add   name: 'object-assign',
+923 silly cache add   rawSpec: '~4.1.0',
+923 silly cache add   spec: '>=4.1.0 <4.2.0',
+923 silly cache add   type: 'range' }
+924 silly addNamed object-assign@>=4.1.0 <4.2.0
+925 verbose addNamed ">=4.1.0 <4.2.0" is a valid semver range for object-assign
+926 silly addNameRange { name: 'object-assign',
+926 silly addNameRange   range: '>=4.1.0 <4.2.0',
+926 silly addNameRange   hasData: false }
+927 silly mapToRegistry name object-assign
+928 silly mapToRegistry using default registry
+929 silly mapToRegistry registry https://registry.npm.taobao.org/
+930 silly mapToRegistry data Result {
+930 silly mapToRegistry   raw: 'object-assign',
+930 silly mapToRegistry   scope: null,
+930 silly mapToRegistry   escapedName: 'object-assign',
+930 silly mapToRegistry   name: 'object-assign',
+930 silly mapToRegistry   rawSpec: '',
+930 silly mapToRegistry   spec: 'latest',
+930 silly mapToRegistry   type: 'tag' }
+931 silly mapToRegistry uri https://registry.npm.taobao.org/object-assign
+932 verbose addNameRange registry:https://registry.npm.taobao.org/object-assign not in flight; fetching
+933 silly resolveWithNewModule array-tree-filter@1.0.1 checking installable status
+934 silly cache add args [ 'array-tree-filter@~1.0.0', null ]
+935 verbose cache add spec array-tree-filter@~1.0.0
+936 silly cache add parsed spec Result {
+936 silly cache add   raw: 'array-tree-filter@~1.0.0',
+936 silly cache add   scope: null,
+936 silly cache add   escapedName: 'array-tree-filter',
+936 silly cache add   name: 'array-tree-filter',
+936 silly cache add   rawSpec: '~1.0.0',
+936 silly cache add   spec: '>=1.0.0 <1.1.0',
+936 silly cache add   type: 'range' }
+937 silly addNamed array-tree-filter@>=1.0.0 <1.1.0
+938 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for array-tree-filter
+939 silly addNameRange { name: 'array-tree-filter',
+939 silly addNameRange   range: '>=1.0.0 <1.1.0',
+939 silly addNameRange   hasData: false }
+940 silly mapToRegistry name array-tree-filter
+941 silly mapToRegistry using default registry
+942 silly mapToRegistry registry https://registry.npm.taobao.org/
+943 silly mapToRegistry data Result {
+943 silly mapToRegistry   raw: 'array-tree-filter',
+943 silly mapToRegistry   scope: null,
+943 silly mapToRegistry   escapedName: 'array-tree-filter',
+943 silly mapToRegistry   name: 'array-tree-filter',
+943 silly mapToRegistry   rawSpec: '',
+943 silly mapToRegistry   spec: 'latest',
+943 silly mapToRegistry   type: 'tag' }
+944 silly mapToRegistry uri https://registry.npm.taobao.org/array-tree-filter
+945 verbose addNameRange registry:https://registry.npm.taobao.org/array-tree-filter not in flight; fetching
+946 silly resolveWithNewModule babel-runtime@6.18.0 checking installable status
+947 silly cache add args [ 'babel-runtime@6.x', null ]
+948 verbose cache add spec babel-runtime@6.x
+949 silly cache add parsed spec Result {
+949 silly cache add   raw: 'babel-runtime@6.x',
+949 silly cache add   scope: null,
+949 silly cache add   escapedName: 'babel-runtime',
+949 silly cache add   name: 'babel-runtime',
+949 silly cache add   rawSpec: '6.x',
+949 silly cache add   spec: '>=6.0.0 <7.0.0',
+949 silly cache add   type: 'range' }
+950 silly addNamed babel-runtime@>=6.0.0 <7.0.0
+951 verbose addNamed ">=6.0.0 <7.0.0" is a valid semver range for babel-runtime
+952 silly addNameRange { name: 'babel-runtime',
+952 silly addNameRange   range: '>=6.0.0 <7.0.0',
+952 silly addNameRange   hasData: false }
+953 silly mapToRegistry name babel-runtime
+954 silly mapToRegistry using default registry
+955 silly mapToRegistry registry https://registry.npm.taobao.org/
+956 silly mapToRegistry data Result {
+956 silly mapToRegistry   raw: 'babel-runtime',
+956 silly mapToRegistry   scope: null,
+956 silly mapToRegistry   escapedName: 'babel-runtime',
+956 silly mapToRegistry   name: 'babel-runtime',
+956 silly mapToRegistry   rawSpec: '',
+956 silly mapToRegistry   spec: 'latest',
+956 silly mapToRegistry   type: 'tag' }
+957 silly mapToRegistry uri https://registry.npm.taobao.org/babel-runtime
+958 verbose addNameRange registry:https://registry.npm.taobao.org/babel-runtime not in flight; fetching
+959 silly resolveWithNewModule moment@2.15.2 checking installable status
+960 silly cache add args [ 'moment@~2.15.1', null ]
+961 verbose cache add spec moment@~2.15.1
+962 silly cache add parsed spec Result {
+962 silly cache add   raw: 'moment@~2.15.1',
+962 silly cache add   scope: null,
+962 silly cache add   escapedName: 'moment',
+962 silly cache add   name: 'moment',
+962 silly cache add   rawSpec: '~2.15.1',
+962 silly cache add   spec: '>=2.15.1 <2.16.0',
+962 silly cache add   type: 'range' }
+963 silly addNamed moment@>=2.15.1 <2.16.0
+964 verbose addNamed ">=2.15.1 <2.16.0" is a valid semver range for moment
+965 silly addNameRange { name: 'moment', range: '>=2.15.1 <2.16.0', hasData: false }
+966 silly mapToRegistry name moment
+967 silly mapToRegistry using default registry
+968 silly mapToRegistry registry https://registry.npm.taobao.org/
+969 silly mapToRegistry data Result {
+969 silly mapToRegistry   raw: 'moment',
+969 silly mapToRegistry   scope: null,
+969 silly mapToRegistry   escapedName: 'moment',
+969 silly mapToRegistry   name: 'moment',
+969 silly mapToRegistry   rawSpec: '',
+969 silly mapToRegistry   spec: 'latest',
+969 silly mapToRegistry   type: 'tag' }
+970 silly mapToRegistry uri https://registry.npm.taobao.org/moment
+971 verbose addNameRange registry:https://registry.npm.taobao.org/moment not in flight; fetching
+972 verbose get https://registry.npm.taobao.org/object-assign not expired, no request
+973 silly addNameRange number 2 { name: 'object-assign', range: '>=4.1.0 <4.2.0', hasData: true }
+974 silly addNameRange versions [ 'object-assign',
+974 silly addNameRange   [ '4.1.0',
+974 silly addNameRange     '4.0.1',
+974 silly addNameRange     '4.0.0',
+974 silly addNameRange     '2.1.1',
+974 silly addNameRange     '3.0.0',
+974 silly addNameRange     '2.0.0',
+974 silly addNameRange     '1.0.0',
+974 silly addNameRange     '0.4.0',
+974 silly addNameRange     '0.3.1',
+974 silly addNameRange     '0.3.0',
+974 silly addNameRange     '0.2.2',
+974 silly addNameRange     '0.2.1',
+974 silly addNameRange     '0.2.0',
+974 silly addNameRange     '0.1.2',
+974 silly addNameRange     '0.1.1',
+974 silly addNameRange     '0.1.0' ] ]
+975 silly addNamed object-assign@4.1.0
+976 verbose addNamed "4.1.0" is a plain semver version for object-assign
+977 verbose get https://registry.npm.taobao.org/array-tree-filter not expired, no request
+978 silly addNameRange number 2 { name: 'array-tree-filter',
+978 silly addNameRange   range: '>=1.0.0 <1.1.0',
+978 silly addNameRange   hasData: true }
+979 silly addNameRange versions [ 'array-tree-filter', [ '1.0.1', '1.0.0' ] ]
+980 silly addNamed array-tree-filter@1.0.1
+981 verbose addNamed "1.0.1" is a plain semver version for array-tree-filter
+982 verbose get https://registry.npm.taobao.org/babel-runtime not expired, no request
+983 silly addNameRange number 2 { name: 'babel-runtime', range: '>=6.0.0 <7.0.0', hasData: true }
+984 silly addNameRange versions [ 'babel-runtime',
+984 silly addNameRange   [ '6.18.0',
+984 silly addNameRange     '6.11.6',
+984 silly addNameRange     '6.9.2',
+984 silly addNameRange     '6.9.1',
+984 silly addNameRange     '6.9.0',
+984 silly addNameRange     '5.8.38',
+984 silly addNameRange     '6.6.1',
+984 silly addNameRange     '6.6.0',
+984 silly addNameRange     '6.5.0-1',
+984 silly addNameRange     '6.5.0',
+984 silly addNameRange     '5.8.35',
+984 silly addNameRange     '6.3.19',
+984 silly addNameRange     '6.3.13',
+984 silly addNameRange     '6.2.4',
+984 silly addNameRange     '6.2.0',
+984 silly addNameRange     '6.1.18',
+984 silly addNameRange     '6.1.17',
+984 silly addNameRange     '5.8.34',
+984 silly addNameRange     '6.1.4',
+984 silly addNameRange     '6.0.14',
+984 silly addNameRange     '6.0.12',
+984 silly addNameRange     '6.0.8',
+984 silly addNameRange     '6.0.2',
+984 silly addNameRange     '5.8.29',
+984 silly addNameRange     '5.8.25',
+984 silly addNameRange     '5.8.24',
+984 silly addNameRange     '5.8.20',
+984 silly addNameRange     '5.8.19',
+984 silly addNameRange     '5.8.12',
+984 silly addNameRange     '5.8.9',
+984 silly addNameRange     '5.8.8',
+984 silly addNameRange     '5.8.5',
+984 silly addNameRange     '5.8.3',
+984 silly addNameRange     '5.8.2',
+984 silly addNameRange     '5.7.0',
+984 silly addNameRange     '5.6.20',
+984 silly addNameRange     '5.6.19',
+984 silly addNameRange     '5.6.18',
+984 silly addNameRange     '5.6.17',
+984 silly addNameRange     '5.6.16',
+984 silly addNameRange     '5.6.15',
+984 silly addNameRange     '5.6.14',
+984 silly addNameRange     '5.6.12',
+984 silly addNameRange     '5.6.11',
+984 silly addNameRange     '5.6.10',
+984 silly addNameRange     '5.6.9',
+984 silly addNameRange     '5.6.8',
+984 silly addNameRange     '5.6.7',
+984 silly addNameRange     '5.6.6',
+984 silly addNameRange     '5.6.5',
+984 silly addNameRange     '5.6.4',
+984 silly addNameRange     '5.6.3',
+984 silly addNameRange     '5.6.2',
+984 silly addNameRange     '5.6.1',
+984 silly addNameRange     '5.6.0',
+984 silly addNameRange     '5.5.8',
+984 silly addNameRange     '5.5.7',
+984 silly addNameRange     '5.5.6',
+984 silly addNameRange     '5.5.5',
+984 silly addNameRange     '5.5.4',
+984 silly addNameRange     '5.5.3',
+984 silly addNameRange     '5.5.2',
+984 silly addNameRange     '5.5.1',
+984 silly addNameRange     '5.5.0',
+984 silly addNameRange     '5.4.7',
+984 silly addNameRange     '5.4.6',
+984 silly addNameRange     '5.4.5',
+984 silly addNameRange     '5.4.4',
+984 silly addNameRange     '5.4.3',
+984 silly addNameRange     '5.4.2',
+984 silly addNameRange     '5.4.1',
+984 silly addNameRange     '5.4.0',
+984 silly addNameRange     '5.3.3',
+984 silly addNameRange     '5.3.2',
+984 silly addNameRange     '5.3.1',
+984 silly addNameRange     '5.3.0',
+984 silly addNameRange     '5.2.17',
+984 silly addNameRange     '5.2.16',
+984 silly addNameRange     '5.2.15',
+984 silly addNameRange     '5.2.14',
+984 silly addNameRange     '5.2.13',
+984 silly addNameRange     '5.2.12',
+984 silly addNameRange     '5.2.11',
+984 silly addNameRange     '5.2.10',
+984 silly addNameRange     '5.2.9',
+984 silly addNameRange     '5.2.7',
+984 silly addNameRange     '5.2.6',
+984 silly addNameRange     '5.2.5',
+984 silly addNameRange     '5.2.4',
+984 silly addNameRange     '5.2.3',
+984 silly addNameRange     '5.2.2',
+984 silly addNameRange     '5.2.1',
+984 silly addNameRange     '5.2.0',
+984 silly addNameRange     '5.1.13',
+984 silly addNameRange     '5.1.12',
+984 silly addNameRange     '5.1.11',
+984 silly addNameRange     '5.1.10',
+984 silly addNameRange     '5.1.9',
+984 silly addNameRange     '5.1.8',
+984 silly addNameRange     '5.1.7',
+984 silly addNameRange     ... 66 more items ] ]
+985 silly addNamed babel-runtime@6.18.0
+986 verbose addNamed "6.18.0" is a plain semver version for babel-runtime
+987 verbose get https://registry.npm.taobao.org/moment not expired, no request
+988 silly addNameRange number 2 { name: 'moment', range: '>=2.15.1 <2.16.0', hasData: true }
+989 silly addNameRange versions [ 'moment',
+989 silly addNameRange   [ '2.15.2',
+989 silly addNameRange     '2.15.1',
+989 silly addNameRange     '2.15.0',
+989 silly addNameRange     '2.14.1',
+989 silly addNameRange     '2.14.0',
+989 silly addNameRange     '2.13.0',
+989 silly addNameRange     '2.12.0',
+989 silly addNameRange     '2.11.2',
+989 silly addNameRange     '2.11.1',
+989 silly addNameRange     '2.11.0',
+989 silly addNameRange     '2.10.6',
+989 silly addNameRange     '2.10.5',
+989 silly addNameRange     '2.10.3',
+989 silly addNameRange     '2.10.2',
+989 silly addNameRange     '2.9.0',
+989 silly addNameRange     '2.8.4',
+989 silly addNameRange     '2.8.3',
+989 silly addNameRange     '2.8.2',
+989 silly addNameRange     '2.8.1',
+989 silly addNameRange     '2.7.0',
+989 silly addNameRange     '2.6.0',
+989 silly addNameRange     '2.5.1',
+989 silly addNameRange     '2.5.0',
+989 silly addNameRange     '2.4.0',
+989 silly addNameRange     '2.3.1',
+989 silly addNameRange     '2.3.0',
+989 silly addNameRange     '2.2.1',
+989 silly addNameRange     '2.1.0',
+989 silly addNameRange     '2.0.0',
+989 silly addNameRange     '1.7.2',
+989 silly addNameRange     '1.7.1',
+989 silly addNameRange     '1.7.0',
+989 silly addNameRange     '1.6.2',
+989 silly addNameRange     '1.6.1',
+989 silly addNameRange     '1.6.0',
+989 silly addNameRange     '1.5.1',
+989 silly addNameRange     '1.5.0',
+989 silly addNameRange     '1.4.0',
+989 silly addNameRange     '1.3.0',
+989 silly addNameRange     '1.0.1',
+989 silly addNameRange     '1.2.0',
+989 silly addNameRange     '1.0.0',
+989 silly addNameRange     '1.1.1',
+989 silly addNameRange     '1.1.0' ] ]
+990 silly addNamed moment@2.15.2
+991 verbose addNamed "2.15.2" is a plain semver version for moment
+992 silly cache afterAdd object-assign@4.1.0
+993 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\object-assign\4.1.0\package\package.json not in flight; writing
+994 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+995 silly cache afterAdd array-tree-filter@1.0.1
+996 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\array-tree-filter\1.0.1\package\package.json not in flight; writing
+997 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+998 silly cache afterAdd babel-runtime@6.18.0
+999 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babel-runtime\6.18.0\package\package.json not in flight; writing
+1000 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1001 silly cache afterAdd moment@2.15.2
+1002 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\moment\2.15.2\package\package.json not in flight; writing
+1003 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1004 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\array-tree-filter\1.0.1\package\package.json written
+1005 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\object-assign\4.1.0\package\package.json written
+1006 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\babel-runtime\6.18.0\package\package.json written
+1007 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\moment\2.15.2\package\package.json written
+1008 silly rollbackFailedOptional Starting
+1009 silly rollbackFailedOptional Finishing
+1010 silly runTopLevelLifecycles Finishing
+1011 silly install printInstalled
+1012 verbose stack Error: connect ETIMEDOUT 114.55.80.225:443
+1012 verbose stack     at Object.exports._errnoException (util.js:1026:11)
+1012 verbose stack     at exports._exceptionWithHostPort (util.js:1049:20)
+1012 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
+1013 verbose cwd C:\Users\Administrator\Desktop\github\webpack-test
+1014 error Windows_NT 6.1.7601
+1015 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "antd"
+1016 error node v7.0.0
+1017 error npm  v3.10.8
+1018 error code ETIMEDOUT
+1019 error errno ETIMEDOUT
+1020 error syscall connect
+1021 error network connect ETIMEDOUT 114.55.80.225:443
+1022 error network This is most likely not a problem with npm itself
+1022 error network and is related to network connectivity.
+1022 error network In most cases you are behind a proxy or have bad network settings.
+1022 error network
+1022 error network If you are behind a proxy, please make sure that the
+1022 error network 'proxy' config is set properly.  See: 'npm help config'
+1023 verbose exit [ 1, true ]
